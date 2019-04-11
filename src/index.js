@@ -1,17 +1,15 @@
 // change require to es6 import style
 import $ from 'jquery';
+import './style.scss';
 
-let num=0;
-
-// Source: https://stackoverflow.com/questions/5638783/how-do-i-get-this-javascript-to-run-every-second
-$(function(){
-setInterval(oneSecondFunction, 1000);
-});
+let num = 0;
 
 function oneSecondFunction() {
-	let text = `You've been on this page for ${num} seconds.`
-
-	$("body").empty();
-	$("body").append("<div>" + text + "</div>");
-	num++;
+  document.getElementById('main').innerHTML = `<div>You've been on this page for ${num} seconds.</div>`;
+  num += 1;
 }
+
+// Source: https://stackoverflow.com/questions/5638783/how-do-i-get-this-javascript-to-run-every-second
+$(() => {
+  setInterval(oneSecondFunction, 1000);
+});
