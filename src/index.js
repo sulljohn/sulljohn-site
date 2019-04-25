@@ -1,15 +1,37 @@
-// change require to es6 import style
-import $ from 'jquery';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './style.scss';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
-let num = 0;
+const About = (props) => {
+  return <div> All there is to know about me </div>;
+};
+const Welcome = (props) => {
+  return <div>Welcome</div>;
+};
 
-function oneSecondFunction() {
-  document.getElementById('main').innerHTML = `<div>You've been on this page for ${num} seconds.</div>`;
-  num += 1;
-}
+const Nav = (props) => {
+  return (
+    <nav>
+      <ul>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
+      </ul>
+    </nav>
+  );
+};
 
-// Source: https://stackoverflow.com/questions/5638783/how-do-i-get-this-javascript-to-run-every-second
-$(() => {
-  setInterval(oneSecondFunction, 1000);
-});
+
+const App = (props) => {
+  return (
+    <Router>
+      <div>
+        <Nav />
+        <Route exact path="/" component={Welcome} />
+        <Route path="/about" component={About} />
+      </div>
+    </Router>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('main'));
