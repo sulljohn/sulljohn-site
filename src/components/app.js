@@ -7,20 +7,7 @@ import Counter from '../containers/counter';
 import Controls from '../containers/controls';
 import NavBar from './navbar'
 import Home from './home'
-
-const About = () => {
-  return <div> All there is to know about me </div>;
-};
-
-const Welcome = () => {
-  return (
-    <div>
-      <div>Welcome to my site!</div>
-      <Counter />
-      <Controls />
-    </div>
-  );
-};
+import About from './about'
 
 const Test = (props) => {
   return <div> ID: {props.match.params.id} </div>;
@@ -45,10 +32,17 @@ const Nav = () => {
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <Home />
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        {/*<Route path="/posts/:postID" component={Post} />*/}
+        {/*<Route path="/signin" component={SignIn} />*/}
+        {/*<Route path="/signup" component={SignUp} />*/}
+        <Route render={() => (<div>Page Not Found</div>)} />
+      </Switch>
+    </Router>
   );
 };
 

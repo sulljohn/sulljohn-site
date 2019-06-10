@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="zoom">
               <img className="headshot" src="res/imgs/headshot.jpg" alt="headshot" />
                 <div>John Sullivan</div>
-                <div>Welcome to my landing page!</div>
+                <div>Welcome to my website!</div>
             </div>
           </div>
         </div>
