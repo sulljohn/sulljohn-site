@@ -5,15 +5,17 @@ import {
 } from 'react-router-dom';
 import Counter from '../containers/counter';
 import Controls from '../containers/controls';
-
+import NavBar from './navbar'
+import Home from './home'
 
 const About = () => {
   return <div> All there is to know about me </div>;
 };
+
 const Welcome = () => {
   return (
     <div>
-      <div>Welcome</div>
+      <div>Welcome to my site!</div>
       <Counter />
       <Controls />
     </div>
@@ -43,17 +45,10 @@ const Nav = () => {
 
 const App = () => {
   return (
-    <Router>
-      <div>
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Welcome} />
-          <Route path="/about" component={About} />
-          <Route exact path="/test/:id" component={Test} />
-          <Route component={FallBack} />
-        </Switch>
-      </div>
-    </Router>
+    <div>
+      <NavBar />
+      <Home />
+    </div>
   );
 };
 

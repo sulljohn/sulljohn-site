@@ -1,17 +1,270 @@
+/* Inspired by CSS from webpage inspiration: https://demo.codestag.com/ink/wp-content/themes/ink/style.css?ver=2.2.14 */
+/* Correcting default margins / padding;
+ source: https://stackoverflow.com/questions/20400755/css-body-width-does-not-fill-100-percent */
 body, html {
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%, #0137e0 100%);
-  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
-
-.logo {
-  background-image: url('img/logo.png');
-  width: 100px;
-  height: 100px;
+#content {
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  background-image: url(../res/imgs/horizon.jpg);
+  width: 100%;
+  height: 70vh;
+}
+/* Flex wrap;
+ source: https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  vertical-align: middle;
+}
+.content > div {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  /* CSS shadows;
+   source: https://www.w3schools.com/CSS/css3_shadows.asp */
+  text-shadow: 2px 2px 4px #000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.content > div:not(:first-child) {
+  flex: 1 0 48%;
+  height: 29.5vh;
+}
+.content > div:not(:first-child):not(:last-child):nth-of-type(even) {
+  border-top: 0.5vh solid white;
+  border-right: 0.25vh solid white;
+}
+.content > div:not(:first-child):not(:last-child):nth-of-type(odd) {
+  border-top: 0.5vh solid white;
+  border-left: 0.25vh solid white;
+}
+.content > div:first-child {
+  flex: 0 1 100%;
+  background-position: center top;
+}
+.content > div:last-child {
+  border-top: 0.5vh solid white;
+  background-position: center bottom;
+  background-image: url(../res/imgs/horizon_bottom.jpg);
+  height: 20vh;
+}
+.content > div:nth-child(2) {
+  background-image: url(../res/imgs/sailing_edited.jpg);
+}
+.content > div:nth-child(3) {
+  background-image: url(../res/imgs/experience_edited.jpg);
+}
+.content > div:nth-child(4) {
+  background-image: url(../res/imgs/projects.jpg);
+}
+.content > div:nth-child(5) {
+  background-image: url(../res/imgs/artwork.jpg);
+}
+/* For all of the cells */
+/* Not first child selector;
+ source: https://stackoverflow.com/questions/12289853/notfirst-child-selector */
+/* Image shadow;
+ source: https://www.w3schools.com/CSS/css3_shadows.asp */
+.headshot {
+  height: 25vh;
+  border-radius: 50%;
+  border: 0.5vh solid white;
+  margin: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Zoom effect;
+ modified from: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+.zoom {
+  transition: transform 0.3s;
+  z-index: 0;
+  display: inline-block;
+}
+.zoom:hover {
+  transform: scale(1.12);
+  -webkit-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  z-index: 0;
+}
+.cell {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Navbar setting below;
+ modified from: https://www.w3schools.com/css/css_navbar.asp */
+/* Menu show/hide;
+ modified from: https://medialoot.com/preview/css-only-navigation-menu/index.html */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+ul.topnav li {
+  float: left;
+  display: block;
+}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+ul.topnav li a.active {
+  background-color: #4caf50;
+}
+ul.topnav li.right {
+  float: right;
+}
+/* Style 'show menu' label button and hide it by default */
+.show-menu {
+  color: #fff;
+  background: #333;
+  display: inline-block;
+  position: fixed;
+  z-index: 1;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+/* Hide checkbox */
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked ~ ul.topnav li {
+  max-height: 500px;
+  transition: max-height 1s ease-in;
+}
+/* Show menu when invisible checkbox is checked;
+ source for transition: https://jsfiddle.net/thechrisjordan/3Fc7D/23/ */
+#close {
+  display: none;
+  cursor: pointer;
+}
+.icon {
+  height: 40px;
+  margin: 8px;
+  -webkit-filter: invert(100%) drop-shadow(3px 3px 3px #222);
+}
+/* Media only screen header here taken from assignment page: http://cs52.me/assignments/lab/landing-page/ */
+@media only screen and (max-width: 600px) {
+  /* Continuing from not first child selector;
+   source: https://stackoverflow.com/questions/12289853/notfirst-child-selector */
+  /* Continuing from the following sources: */
+  /* Navbar setting below, modified from: https://www.w3schools.com/css/css_navbar.asp */
+  /* Menu show/hide, modified from: https://medialoot.com/preview/css-only-navigation-menu/index.html */
+  /* Source for hamburger bar transition: https://jsfiddle.net/thechrisjordan/3Fc7D/23/ */
+  /*Display 'show menu' link*/
+  .content > div:not(:first-child) {
+    flex: 0 1 100%;
+  }
+  .content > div:not(:first-child):not(:last-child):nth-of-type(even) {
+    border-right: 0;
+  }
+  .content > div:not(:first-child):not(:last-child):nth-of-type(odd) {
+    border-left: 0;
+  }
+  ul.topnav {
+    position: fixed;
+    z-index: 10;
+  }
+  ul.topnav li {
+    float: none;
+    position: static;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+  }
+  ul.topnav li.right {
+    float: none;
+  }
+  .show-menu, #close {
+    display: block;
+  }
+}
+/* Header source here: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Continuing from not first child selector;
+   source: https://stackoverflow.com/questions/12289853/notfirst-child-selector */
+  /* Continuing from the following sources: */
+  /* Navbar setting below, modified from: https://www.w3schools.com/css/css_navbar.asp */
+  /* Menu show/hide, modified from: https://medialoot.com/preview/css-only-navigation-menu/index.html */
+  /* Source for hamburger bar transition: https://jsfiddle.net/thechrisjordan/3Fc7D/23/ */
+  /*Display 'show menu' link*/
+  body, html {
+    font-size: 42px;
+  }
+  .icon {
+    height: 80px;
+  }
+  .show-menu {
+    color: #fff;
+    background: #333;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+    font-size: 80px;
+    width: 120px;
+    height: 120px;
+    top: 0;
+    right: 0;
+  }
+  .content > div:not(:first-child) {
+    flex: 0 1 100%;
+  }
+  .content > div:not(:first-child):not(:last-child):nth-of-type(even) {
+    border-right: 0;
+  }
+  .content > div:not(:first-child):not(:last-child):nth-of-type(odd) {
+    border-left: 0;
+  }
+  ul.topnav {
+    position: fixed;
+    z-index: 10;
+  }
+  ul.topnav li {
+    float: none;
+    position: static;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+  }
+  ul.topnav li.right {
+    float: none;
+  }
+  .show-menu, #close {
+    display: block;
+  }
 }
 
-.active {
-  color: pink;
-}
