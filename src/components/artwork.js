@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const Artwork = () => {
   return <div className="placeholder">Coming Soon!</div>;
 };
 
-export default Artwork
+export default Artwork;
