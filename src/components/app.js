@@ -42,7 +42,7 @@ const App = () => {
         <Route path="/experience" component={Experience} />
         <Route path="/projects" component={Projects} />
         <Route path="/artwork" component={Artwork} />
-        <Route render={() => (<div>Page Not Found</div>)} />
+        <Route render={() => (<div className="placeholder">Page Not Found</div>)} />
       </Switch>
     </Router>
   );
