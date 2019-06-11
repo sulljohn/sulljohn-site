@@ -11,7 +11,7 @@ class Home extends Component {
         <div id="top">
           <div>
             <div className="zoom">
-              <img className="headshot" src="res/imgs/headshot.jpg" alt="headshot" />
+              <img className="headshot" src="src/res/imgs/headshot.jpg" alt="headshot" />
                 <div>John Sullivan</div>
                 <div>Welcome to my website!</div>
             </div>
@@ -39,12 +39,12 @@ class Home extends Component {
         </div>
         <div>
           <div id="contact">
-            <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="res/icons/linkedin.png"
+            <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="src/res/icons/linkedin.png"
                                                                                className="icon"
                                                                                alt="LinkedIn" /></a>
-            <a href="https://github.com/sulljohn"><img src="res/icons/github.png" className="icon" alt="Github" /></a>
-            <a href="mailto:sulljohn12@gmail.com"><img src="res/icons/mail.png" className="icon" alt="Mail" /></a>
-            <a href="tel:+19149604440"><img src="res/icons/phone.png" className="icon" alt="Phone" /></a>
+            <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon" alt="Github" /></a>
+            <a href="mailto:sulljohn12@gmail.com"><img src="src/res/icons/mail.png" className="icon" alt="Mail" /></a>
+            <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon" alt="Phone" /></a>
           </div>
           <div>Site designed by John Sullivan</div>
         </div>
