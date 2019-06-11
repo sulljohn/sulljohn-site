@@ -1,6 +1,7 @@
 // Style modified from Material UI workshop; source: https://github.com/dartmouth-cs52-19S/workshop-ws-04-25-react-comps
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../style.scss';
 
 class Home extends Component {
@@ -17,18 +18,24 @@ class Home extends Component {
           </div>
         </div>
         <div>
-          <div id="about" className="zoom cell">
-            <div>About Me</div>
-          </div>
+          <Link to="/about" className="link">
+            <div id="about" className="zoom cell">About Me</div>
+          </Link>
         </div>
         <div>
-          <div id="experience" className="zoom cell">Experience</div>
+          <Link to="/experience" className="link">
+            <div id="experience" className="zoom cell">Experience</div>
+          </Link>
         </div>
         <div>
-          <div id="projects" className="zoom cell">Projects</div>
+          <Link to="/projects" className="link">
+            <div id="projects" className="zoom cell">Projects</div>
+          </Link>
         </div>
         <div>
-          <div id="artwork" className="zoom cell">Artwork</div>
+          <Link to="/artwork" className="link">
+            <div id="artwork" className="zoom cell">Artwork</div>
+          </Link>
         </div>
         <div>
           <div id="contact">

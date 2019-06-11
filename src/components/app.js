@@ -3,11 +3,12 @@ import '../style.scss';
 import {
   BrowserRouter as Router, Route, NavLink, Switch,
 } from 'react-router-dom';
-import Counter from '../containers/counter';
-import Controls from '../containers/controls';
 import NavBar from './navbar'
 import Home from './home'
 import About from './about'
+import Experience from './experience'
+import Projects from './projects'
+import Artwork from './artwork'
 
 const Test = (props) => {
   return <div> ID: {props.match.params.id} </div>;
@@ -37,9 +38,9 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        {/*<Route path="/posts/:postID" component={Post} />*/}
-        {/*<Route path="/signin" component={SignIn} />*/}
-        {/*<Route path="/signup" component={SignUp} />*/}
+        <Route path="/experience" component={Experience} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/artwork" component={Artwork} />
         <Route render={() => (<div>Page Not Found</div>)} />
       </Switch>
     </Router>

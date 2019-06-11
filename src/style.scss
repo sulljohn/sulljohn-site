@@ -272,3 +272,10 @@ input[type=checkbox]:checked ~ ul.topnav li {
   margin-top:100px;
   text-align:center;
 }
+// Get rid of link underlining
+.link {
+  color:inherit;
+  text-decoration:none;
+  height:100%;
+  width:100%;
+}

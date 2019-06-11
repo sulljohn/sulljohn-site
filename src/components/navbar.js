@@ -1,6 +1,7 @@
 // Style modified from Material UI workshop; source: https://github.com/dartmouth-cs52-19S/workshop-ws-04-25-react-comps
 
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../style.scss';
 
 class NavBar extends Component {
