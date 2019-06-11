@@ -13,7 +13,7 @@ class NavBar extends Component {
 
         <ul className="topnav">
           <li><label htmlFor="show-menu"><a id="close">Close</a></label></li>
-          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/home">Home</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/experience">Experience</NavLink></li>
           <li><NavLink to="/projects">Projects</NavLink></li>
