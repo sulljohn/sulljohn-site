@@ -3,12 +3,12 @@ import '../style.scss';
 import {
   BrowserRouter as Router, Route, NavLink, Switch,
 } from 'react-router-dom';
-import NavBar from './navbar'
-import Home from './home'
-import About from './about'
-import Experience from './experience'
-import Projects from './projects'
-import Artwork from './artwork'
+import NavBar from './navbar';
+import Home from './home';
+import About from './about';
+import Experience from './experience';
+import Projects from './projects';
+import Artwork from './artwork';
 
 const Test = (props) => {
   return <div> ID: {props.match.params.id} </div>;
