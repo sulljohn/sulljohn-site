@@ -10,27 +10,6 @@ import Experience from './experience';
 import Projects from './projects';
 import Artwork from './artwork';
 
-const Test = (props) => {
-  return <div> ID: {props.match.params.id} </div>;
-};
-
-const FallBack = () => {
-  return <div>URL Not Found</div>;
-};
-
-const Nav = () => {
-  return (
-    <nav>
-      <ul>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/test/id1">test id1</NavLink></li>
-        <li><NavLink to="/test/id2">test id2</NavLink></li>
-      </ul>
-    </nav>
-  );
-};
-
 const App = () => {
   return (
     <Router>
