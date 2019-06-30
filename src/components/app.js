@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.scss';
 import {
-  BrowserRouter as Router, Route, NavLink, Switch,
+  BrowserRouter as Router, Route, Switch,
 } from 'react-router-dom';
 import NavBar from './navbar';
 import Home from './home';
