@@ -8,6 +8,13 @@ body, html {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
+.artContainer, .projects, .placeholder {
+  padding-top: 50px;
+}
+.projectImage, .projectText {
+  width:50%;
+  text-align:center;
+}
 #content {
   display: flex;
   flex-direction: column;
@@ -210,6 +217,12 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .show-menu, #close {
     display: block;
   }
+  .artContainer, .projects, .placeholder {
+    padding-top: 0;
+  }
+  .projectImage, .projectText {
+    width:100%;
+  }
 }
 /* Header source here: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 /* Portrait and Landscape */
@@ -221,9 +234,6 @@ input[type=checkbox]:checked ~ ul.topnav li {
   /* Menu show/hide, modified from: https://medialoot.com/preview/css-only-navigation-menu/index.html */
   /* Source for hamburger bar transition: https://jsfiddle.net/thechrisjordan/3Fc7D/23/ */
   /*Display 'show menu' link*/
-  body, html {
-    //font-size: 42px;
-  }
   .content > div:not(:first-child) {
     flex: 0 1 100%;
   }
@@ -250,9 +260,14 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .show-menu, #close {
     display: block;
   }
+  .artContainer, .projects, .placeholder {
+    padding-top: 0;
+  }
+  .projectImage, .projectText {
+    width:100%;
+  }
 }
 .placeholder {
-  margin-top:100px;
   text-align:center;
 }
 // Get rid of link underlining
@@ -264,7 +279,6 @@ input[type=checkbox]:checked ~ ul.topnav li {
 }
 
 .artContainer {
-  margin-top:100px;
   display:flex;
   flex-direction:column;
 }
@@ -272,3 +286,15 @@ input[type=checkbox]:checked ~ ul.topnav li {
 .artSection {
   width:100%;
 }
+
+.project {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.project:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+
