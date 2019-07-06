@@ -25,6 +25,15 @@ body, html {
   width: 100%;
   height: 70vh;
 }
+#topAbout {
+  background-image: url(res/imgs/horizon.jpg);
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+
 /* Flex wrap;
  source: https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
 .content {
@@ -64,7 +73,7 @@ body, html {
   flex: 0 1 100%;
   background-position: center top;
 }
-.content > div:last-child {
+.content > .mainFooter {
   border-top: 0.5vh solid white;
   background-position: center bottom;
   background-image: url(res/imgs/horizon_bottom.jpg);
@@ -377,4 +386,14 @@ input[type=checkbox]:checked ~ ul.topnav li {
   flex-direction:column;
   align-items:center;
   justify-content:center;
+}
+
+.aboutFlex {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  height:85%;
+}
+.bottomFlex {
+  height:15%;
 }
