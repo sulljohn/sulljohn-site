@@ -22,9 +22,9 @@ const Home = () => {
         </Link>
       </div>
       <div>
-        <Link to="/experience" className="link">
+        <a href="https://www.linkedin.com/in/john-sullivan-039349123" className="link">
           <div id="experience" className="zoom cell">Experience</div>
-        </Link>
+        </a>
       </div>
       <div>
         <Link to="/projects" className="link">
@@ -39,13 +39,13 @@ const Home = () => {
       <div>
         <div id="contact">
           <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="src/res/icons/linkedin.png"
-            className="icon"
+            className="icon iconMain"
             alt="LinkedIn"
           />
           </a>
-          <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon" alt="Github" /></a>
-          <a href="mailto:sulljohn12@gmail.com"><img src="src/res/icons/mail.png" className="icon" alt="Mail" /></a>
-          <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon" alt="Phone" /></a>
+          <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon iconMain" alt="Github" /></a>
+          <a href="mailto:sulljohn12@gmail.com"><img src="src/res/icons/mail.png" className="icon iconMain" alt="Mail" /></a>
+          <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon iconMain" alt="Phone" /></a>
         </div>
         <div>Site designed by John Sullivan</div>
       </div>

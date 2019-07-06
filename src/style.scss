@@ -1,3 +1,5 @@
+// TODO: add as much as possible of styling to each component
+
 /* Converted from CSS to SCSS using this website: https://jsonformatter.org/scss-to-css */
 /* Inspired by CSS from webpage inspiration: https://demo.codestag.com/ink/wp-content/themes/ink/style.css?ver=2.2.14 */
 /* Correcting default margins / padding;
@@ -10,10 +12,7 @@ body, html {
 }
 .artContainer, .projects, .placeholder {
   padding-top: 50px;
-}
-.projectImage, .projectText {
-  width:50%;
-  text-align:center;
+  max-width:1000px;
 }
 #content {
   display: flex;
@@ -180,8 +179,47 @@ input[type=checkbox]:checked ~ ul.topnav li {
 .icon {
   height: 40px;
   margin: 8px;
+}
+
+.iconMain {
   -webkit-filter: invert(100%) drop-shadow(3px 3px 3px #222);
 }
+
+.projectImgContainer {
+  width:50%;
+}
+.project:nth-of-type(even) > .projectImgContainer {
+  text-align:right
+}
+.projectImg {
+  margin: 20px;
+  max-height:500px;
+  max-width:90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.zoom2 {
+  transition: transform 0.3s;
+  z-index: 0;
+  display: inline-block;
+}
+.zoom2:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  z-index: 0;
+}
+.projectTextContainer {
+  width: 48%;
+  text-align: center;
+}
+
+.projectTextContainer:nth-of-type(odd) {
+  margin-left:2%
+}
+.projectTextContainer:nth-of-type(even) {
+  margin-right:2%
+}
+
 /* Media only screen header here taken from assignment page: http://cs52.me/assignments/lab/landing-page/ */
 @media only screen and (max-width: 600px) {
   /* Continuing from not first child selector;
@@ -220,7 +258,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .artContainer, .projects, .placeholder {
     padding-top: 0;
   }
-  .projectImage, .projectText {
+  .projectImgContainer, .projectTextContainer, projectImg {
     width:100%;
   }
 }
@@ -263,7 +301,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .artContainer, .projects, .placeholder {
     padding-top: 0;
   }
-  .projectImage, .projectText {
+  .projectImgContainer, .projectTextContainer, projectImg {
     width:100%;
   }
 }
@@ -291,10 +329,42 @@ input[type=checkbox]:checked ~ ul.topnav li {
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
+  margin:25px 0;
 }
 
 .project:nth-of-type(odd) {
   flex-direction: row-reverse;
 }
 
+.projectTitle {
+  text-align:center;
+  margin-bottom:10px;
+  font-size:125%;
+  font-weight:bold;
+}
 
+.projectBody {
+  text-align:justify;
+}
+
+.contentContainer {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  padding: 0 2%;
+}
+
+.projectFooter {
+  font-style: italic;
+}
+
+.projectInquiry { color: inherit; text-decoration: inherit }
+
+.footer2 {
+  height: 20vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}

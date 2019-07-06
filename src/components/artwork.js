@@ -1,5 +1,36 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
+import Footer from './footer';
+
+const posters = [{
+  src: 'src/res/artwork/1_posters/1_Superhero.jpg',
+  thumbnail: 'src/res/artwork/1_posters/1_Superhero.jpg',
+  thumbnailWidth: 144,
+  thumbnailHeight: 212,
+  caption: 'Superheros vs. Villains',
+},
+{
+  src: 'src/res/artwork/1_posters/2_Seuss.jpg',
+  thumbnail: 'src/res/artwork/1_posters/2_Seuss.jpg',
+  thumbnailWidth: 170,
+  thumbnailHeight: 212,
+  caption: 'Seuss on the Loose',
+},
+{
+  src: 'src/res/artwork/1_posters/3_Icecraft.jpg',
+  thumbnail: 'src/res/artwork/1_posters/3_Icecraft.jpg',
+  thumbnailWidth: 141,
+  thumbnailHeight: 212,
+  caption: 'Icecraft and Blizzardry',
+},
+{
+  src: 'src/res/artwork/1_posters/4_Snow_Wars.jpg',
+  thumbnail: 'src/res/artwork/1_posters/4_Snow_Wars.jpg',
+  thumbnailWidth: 141,
+  thumbnailHeight: 212,
+  caption: 'Snow Wars',
+},
+];
 
 const IMAGES = [{
   src: 'https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg',
@@ -32,19 +63,22 @@ const IMAGES = [{
 
 const Artwork = () => {
   return (
-    <div className="artContainer">
-      <div className="artSection">
-        <h1>Posters</h1>
-        <Gallery images={IMAGES} enableImageSelection={false} />
+    <div className="contentContainer">
+      <div className="artContainer">
+        <div className="artSection">
+          <h1>Posters</h1>
+          <Gallery images={posters} enableImageSelection={false} />
+        </div>
+        <div className="artSection">
+          <h1>Drawings</h1>
+          <Gallery images={IMAGES} enableImageSelection={false} />
+        </div>
+        <div className="artSection">
+          <h1>Paintings</h1>
+          <Gallery images={IMAGES} enableImageSelection={false} />
+        </div>
       </div>
-      <div className="artSection">
-        <h1>Drawings</h1>
-        <Gallery images={IMAGES} enableImageSelection={false} />
-      </div>
-      <div className="artSection">
-        <h1>Paintings</h1>
-        <Gallery images={IMAGES} enableImageSelection={false} />
-      </div>
+      <Footer />
     </div>
   );
 };
