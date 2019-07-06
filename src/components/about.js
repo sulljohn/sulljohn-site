@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -17,8 +16,8 @@ const About = () => {
         <div className="bottomFlex">
           <div id="contact">
             <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="src/res/icons/linkedin.png"
-                                                                               className="icon iconMain"
-                                                                               alt="LinkedIn"
+              className="icon iconMain"
+              alt="LinkedIn"
             />
             </a>
             <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon iconMain" alt="Github" /></a>
