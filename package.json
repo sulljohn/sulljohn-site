@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "repository": "git@github.com:dartmouth-cs52-19S/starterpack-sulljohn.git",
-  "author": "John Sullivan <sulljohn12@gmail.com>",
+  "author": "John Sullivan <js@sulljohn.com>",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",

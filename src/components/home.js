@@ -44,7 +44,7 @@ const Home = () => {
           />
           </a>
           <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon iconMain" alt="Github" /></a>
-          <a href="mailto:sulljohn12@gmail.com"><img src="src/res/icons/mail.png" className="icon iconMain" alt="Mail" /></a>
+          <a href="mailto:js@sulljohn.com"><img src="src/res/icons/mail.png" className="icon iconMain" alt="Mail" /></a>
           <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon iconMain" alt="Phone" /></a>
         </div>
         <div>Site designed by John Sullivan</div>
