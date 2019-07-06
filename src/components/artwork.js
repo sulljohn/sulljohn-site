@@ -77,8 +77,8 @@ const Artwork = () => {
           <h1>Paintings</h1>
           <Gallery images={IMAGES} enableImageSelection={false} />
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

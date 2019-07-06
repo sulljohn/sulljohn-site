@@ -55,9 +55,9 @@ const Projects = () => {
             </div>
           ))}
         </div>
+        <div className="projectFooter">For more information on any of these projects, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="projectInquiry">Contact Me</a>.</div>
+        <Footer />
       </div>
-      <div className="projectFooter">For more information on any of these projects, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="projectInquiry">Contact Me</a>.</div>
-      <Footer />
     </div>
   );
 };

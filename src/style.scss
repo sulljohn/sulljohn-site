@@ -11,8 +11,9 @@ body, html {
   box-sizing: border-box;
 }
 .artContainer, .projects, .placeholder {
-  padding-top: 50px;
+  padding: 50px 2% 0;
   max-width:1000px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #content {
   display: flex;
@@ -213,11 +214,11 @@ input[type=checkbox]:checked ~ ul.topnav li {
   text-align: center;
 }
 
-.projectTextContainer:nth-of-type(odd) {
-  margin-left:2%
+.project:nth-of-type(odd) > .projectTextContainer {
+  margin-right:2%;
 }
-.projectTextContainer:nth-of-type(even) {
-  margin-right:2%
+.project:nth-of-type(even) > .projectTextContainer {
+  margin-left:2%;
 }
 
 /* Media only screen header here taken from assignment page: http://cs52.me/assignments/lab/landing-page/ */
@@ -352,11 +353,11 @@ input[type=checkbox]:checked ~ ul.topnav li {
   flex-direction:column;
   justify-content:flex-start;
   align-items:center;
-  padding: 0 2%;
 }
 
 .projectFooter {
   font-style: italic;
+  text-align:center;
 }
 
 .projectInquiry { color: inherit; text-decoration: inherit }
