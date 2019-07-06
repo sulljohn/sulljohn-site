@@ -1,4 +1,5 @@
 import React from 'react';
+import about from '../data/about';
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
               <div>John Sullivan</div>
             </div>
           </div>
-          <div className="textAbout">Write text describing me.</div>
+          <div className="textAbout">{about.text}</div>
         </div>
         <div className="bottomFlex">
           <div id="contact">
