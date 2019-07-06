@@ -4,6 +4,7 @@ import Footer from './footer';
 import projects from '../data/projects';
 
 // TODO: cite others for group projects; add bridge text
+// TODO: figure out why new lines not being added like mtool sim
 
 const Projects = () => {
   return (
