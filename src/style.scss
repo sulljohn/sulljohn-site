@@ -221,6 +221,24 @@ input[type=checkbox]:checked ~ ul.topnav li {
   margin-left:2%;
 }
 
+.project {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin:25px 0;
+}
+
+.project:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+.projectTitle {
+  text-align:center;
+  margin-bottom:10px;
+  font-size:125%;
+  font-weight:bold;
+}
+
 /* Media only screen header here taken from assignment page: http://cs52.me/assignments/lab/landing-page/ */
 @media only screen and (max-width: 600px) {
   /* Continuing from not first child selector;
@@ -261,6 +279,9 @@ input[type=checkbox]:checked ~ ul.topnav li {
   }
   .projectImgContainer, .projectTextContainer, projectImg {
     width:100%;
+  }
+  .projectImgContainer {
+    text-align:center;
   }
 }
 /* Header source here: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
@@ -305,6 +326,9 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .projectImgContainer, .projectTextContainer, projectImg {
     width:100%;
   }
+  .projectImgContainer {
+    text-align:center;
+  }
 }
 .placeholder {
   text-align:center;
@@ -326,23 +350,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   width:100%;
 }
 
-.project {
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  margin:25px 0;
-}
 
-.project:nth-of-type(odd) {
-  flex-direction: row-reverse;
-}
-
-.projectTitle {
-  text-align:center;
-  margin-bottom:10px;
-  font-size:125%;
-  font-weight:bold;
-}
 
 .projectBody {
   text-align:justify;
