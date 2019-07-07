@@ -366,11 +366,17 @@ input[type=checkbox]:checked ~ ul.topnav li {
   text-align:justify;
 }
 
+// Stripe source: http://www.stripegenerator.com/#Zm9yZT1GMEYwRjA7aD0zMDt3PTc7cD03O2JhY2sxPUZGRkZGRjtiYWNrMj1mZjAwMDA7Z3Q9MDtkPTA7c2hhZG93PTA7
 .contentContainer {
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
   align-items:center;
+  background: url(res/background/stripe.png) repeat;
+}
+
+.artContainer, .projects {
+  background-color:white;
 }
 
 .projectFooter {
