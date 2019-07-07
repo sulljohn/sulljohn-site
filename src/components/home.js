@@ -1,6 +1,6 @@
 // Style modified from Material UI workshop; source: https://github.com/dartmouth-cs52-19S/workshop-ws-04-25-react-comps
 
-import React, { StyleSheet } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style.scss';
 import AOS from 'aos';
@@ -8,21 +8,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init({
   once: true, // whether animation should happen only once - while scrolling down
-});
-
-const styles = StyleSheet.create({
-  container: {
-    borderRadius: 4,
-    borderWidth: 0.5,
-    borderColor: '#d6d7da',
-  },
-  title: {
-    fontSize: 19,
-    fontWeight: 'bold',
-  },
-  activeTitle: {
-    color: 'red',
-  },
 });
 
 const Home = () => {

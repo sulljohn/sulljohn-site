@@ -1,3 +1,5 @@
+import * as process from 'eslint';
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 

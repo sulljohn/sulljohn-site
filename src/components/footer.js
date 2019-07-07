@@ -7,8 +7,8 @@ const Footer = () => {
     <div className="footer2">
       <div id="contact">
         <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="src/res/icons/linkedin.png"
-                                                                           className="icon"
-                                                                           alt="LinkedIn"
+          className="icon"
+          alt="LinkedIn"
         />
         </a>
         <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon" alt="Github" /></a>

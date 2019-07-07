@@ -151,7 +151,7 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
-ul.topnav li a.active {
+ul.topnav li a:active {
   background-color: #4caf50;
 }
 ul.topnav li.right {
@@ -287,7 +287,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .artContainer, .projects, .placeholder {
     padding-top: 0;
   }
-  .projectImgContainer, .projectTextContainer, projectImg {
+  .projectImgContainer, .projectTextContainer, .projectImg {
     width:100%;
   }
   .projectImgContainer {
@@ -333,7 +333,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   .artContainer, .projects, .placeholder {
     padding-top: 0;
   }
-  .projectImgContainer, .projectTextContainer, projectImg {
+  .projectImgContainer, .projectTextContainer, .projectImg {
     width:100%;
   }
   .projectImgContainer {

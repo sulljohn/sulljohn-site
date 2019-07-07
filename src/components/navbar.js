@@ -1,3 +1,6 @@
+/* eslint jsx-a11y/label-has-associated-control:0 */
+/* eslint jsx-a11y/label-has-for:0 */
+/* eslint jsx-a11y/anchor-is-valid:0 */
 // Style modified from Material UI workshop; source: https://github.com/dartmouth-cs52-19S/workshop-ws-04-25-react-comps
 
 import React from 'react';
