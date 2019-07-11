@@ -17,6 +17,7 @@ const NavBar = () => {
         <li><NavLink to="/home">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><a href="https://www.linkedin.com/in/john-sullivan-039349123">Experience</a></li>
+        <li><NavLink to="/experience">Experience2</NavLink></li>
         <li><NavLink to="/projects">Projects</NavLink></li>
         <li><NavLink to="/artwork">Artwork</NavLink></li>
         <li className="right"><a href="mailto:js@sulljohn.com">Contact</a></li>

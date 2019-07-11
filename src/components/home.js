@@ -53,7 +53,8 @@ const Home = () => {
           <a href="mailto:js@sulljohn.com"><img src="src/res/icons/mail.png" className="icon iconMain" alt="Mail" /></a>
           <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon iconMain" alt="Phone" /></a>
         </div>
-        <div>Site designed by John Sullivan</div>
+        <div>Site designed by John Sullivan </div>
+        <div>Copyright &copy;{new Date().getFullYear()}</div>
       </div>
     </div>
   );

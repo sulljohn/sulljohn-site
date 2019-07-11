@@ -41,6 +41,8 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
     "aos": "^2.3.4",
     "axios": "^0.18.0",
     "jquery": "^3.4.0",
@@ -51,6 +53,7 @@
     "react-redux": "^7.0.2",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
+    "react-vertical-timeline-component": "^2.4.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   }

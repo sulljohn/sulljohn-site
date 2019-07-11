@@ -16,6 +16,7 @@ const Footer = () => {
         <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon" alt="Phone" /></a>
       </div>
       <div>Site designed by John Sullivan</div>
+      <div>Copyright &copy;{new Date().getFullYear()}</div>
     </div>
   );
 };
