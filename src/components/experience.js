@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <div className="experienceContainer">
       <div className="timeLineContainer">
-        <h1>Work experience & Education</h1>
+        <h1>Work Experience & Education</h1>
         <VerticalTimeline>
           {experience.data.map(item => (
             <VerticalTimelineElement
