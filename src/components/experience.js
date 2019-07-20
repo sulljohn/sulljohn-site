@@ -4,6 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import StarIcon from '@material-ui/icons/Star';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 import Footer from './footer';
 
 // TODO: modify the timeline; add the skills at the bottom; decide whether to replace the other link to LinkedIn
@@ -106,7 +108,20 @@ const Experience = () => {
       </div>
       <div data-aos="fade-in" className="skillContainer">
         <h1>Skills</h1>
-        <div>text</div>
+        <div className="skillCards">
+          <Card>
+            <CardContent>test</CardContent>
+          </Card>
+          <Card>
+            <CardContent>test</CardContent>
+          </Card>
+          <Card>
+            <CardContent>test</CardContent>
+          </Card>
+          <Card>
+            <CardContent>test</CardContent>
+          </Card>
+        </div>
       </div>
       <Footer data-aos="fade-in" />
     </div>

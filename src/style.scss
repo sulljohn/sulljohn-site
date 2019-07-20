@@ -412,3 +412,18 @@ input[type=checkbox]:checked ~ ul.topnav li {
 .skillContainer {
   padding:50px;
 }
+
+.skillCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skillCards > div {
+  width:20%;
+  min-width:175px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
