@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "date": "2011 - present",
+      "title": "Creative Director",
+      "location": "Miami, FL",
+      "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+      "icon": "work",
+      "iconBackground": "rgb(33, 150, 243)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "2011 - present",
+      "title": "Creative Director",
+      "location": "Miami, FL",
+      "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+      "icon": "work",
+      "iconBackground": "rgb(233, 30, 99)",
+      "iconColor": "#fff"
+    }
+  ]
+}
