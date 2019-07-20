@@ -43,8 +43,25 @@ const Experience = () => {
       </div>
       <div data-aos="fade-in" className="skillContainer">
         <h1>Skills</h1>
+        <h2>Advanced</h2>
         <div className="skillCards">
-          {skills.data.map(item => (
+          {skills.advanced.map(item => (
+            <Card>
+              <CardContent>{item.text}</CardContent>
+            </Card>
+          ))}
+        </div>
+        <h2>Intermediate</h2>
+        <div className="skillCards">
+          {skills.intermediate.map(item => (
+            <Card>
+              <CardContent>{item.text}</CardContent>
+            </Card>
+          ))}
+        </div>
+        <h2>Basic</h2>
+        <div className="skillCards">
+          {skills.basic.map(item => (
             <Card>
               <CardContent>{item.text}</CardContent>
             </Card>

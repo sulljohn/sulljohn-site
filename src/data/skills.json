@@ -1,5 +1,45 @@
 {
-  "data": [
+  "advanced": [
+    {
+      "text": "Skill1"
+    },
+    {
+      "text": "Skill2"
+    },
+    {
+      "text": "Skill3"
+    },
+    {
+      "text": "Skill4"
+    },
+    {
+      "text": "Skill5"
+    },
+    {
+      "text": "Skill6"
+    },
+    {
+      "text": "Skill7"
+    }
+  ],
+  "intermediate": [
+    {
+      "text": "Skill1"
+    },
+    {
+      "text": "Skill2"
+    },
+    {
+      "text": "Skill3"
+    },
+    {
+      "text": "Skill4"
+    },
+    {
+      "text": "Skill5"
+    }
+  ],
+  "basic": [
     {
       "text": "Skill1"
     },

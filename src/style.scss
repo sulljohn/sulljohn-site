@@ -417,7 +417,7 @@ input[type=checkbox]:checked ~ ul.topnav li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: left;
 }
 
 .skillCards > div {
