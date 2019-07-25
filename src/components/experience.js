@@ -18,7 +18,7 @@ const Experience = () => {
       <div className="timeLineContainer">
         <h1>Work Experience & Education</h1>
         <VerticalTimeline>
-          {experience.data.map(item => (
+          {experience.data.reverse().map(item => (
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date={item.date}
@@ -28,11 +28,9 @@ const Experience = () => {
                 : item.icon === 'school' ? <SchoolIcon />
                   : <StarIcon />}
             >
-              <h3 className="vertical-timeline-element-title">Creative Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-              </p>
+              <h3 className="vertical-timeline-element-title">{item.title}</h3>
+              <h4 className="vertical-timeline-element-subtitle">{item.location}</h4>
+              <p>{item.description}</p>
             </VerticalTimelineElement>
           ))}
           <VerticalTimelineElement
@@ -43,30 +41,18 @@ const Experience = () => {
       </div>
       <div data-aos="fade-in" className="skillContainer">
         <h1>Skills</h1>
-        <h2>Advanced</h2>
-        <div className="skillCards">
-          {skills.advanced.map(item => (
-            <Card>
-              <CardContent>{item.text}</CardContent>
-            </Card>
-          ))}
-        </div>
-        <h2>Intermediate</h2>
-        <div className="skillCards">
-          {skills.intermediate.map(item => (
-            <Card>
-              <CardContent>{item.text}</CardContent>
-            </Card>
-          ))}
-        </div>
-        <h2>Basic</h2>
-        <div className="skillCards">
-          {skills.basic.map(item => (
-            <Card>
-              <CardContent>{item.text}</CardContent>
-            </Card>
-          ))}
-        </div>
+        {skills.data.map(item => (
+          <div>
+            <h2>{item.name}</h2>
+            <div className="skillCards">
+              {item.list.map(item2 => (
+                <Card>
+                  <CardContent>{item2.text}</CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
       <Footer data-aos="fade-in" />
     </div>

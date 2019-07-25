@@ -1,59 +1,81 @@
 {
-  "advanced": [
+  "data": [
     {
-      "text": "Skill1"
+      "name": "Advanced",
+      "list": [
+        {
+          "text": "Java"
+        },
+        {
+          "text": "C Programming"
+        },
+        {
+          "text": "Matlab"
+        }
+      ]
     },
     {
-      "text": "Skill2"
+      "name": "Intermediate",
+      "list": [
+        {
+          "text": "HTML"
+        },
+        {
+          "text": "JavaScript"
+        },
+        {
+          "text": "CSS"
+        },
+        {
+          "text": "React"
+        },
+        {
+          "text": "LaTeX"
+        },
+        {
+          "text": "VHDL"
+        }
+      ]
     },
     {
-      "text": "Skill3"
+      "name": "Basic",
+      "list": [
+        {
+          "text": "Scala"
+        },
+        {
+          "text": "Stata"
+        }
+      ]
     },
     {
-      "text": "Skill4"
-    },
-    {
-      "text": "Skill5"
-    },
-    {
-      "text": "Skill6"
-    },
-    {
-      "text": "Skill7"
-    }
-  ],
-  "intermediate": [
-    {
-      "text": "Skill1"
-    },
-    {
-      "text": "Skill2"
-    },
-    {
-      "text": "Skill3"
-    },
-    {
-      "text": "Skill4"
-    },
-    {
-      "text": "Skill5"
-    }
-  ],
-  "basic": [
-    {
-      "text": "Skill1"
-    },
-    {
-      "text": "Skill2"
-    },
-    {
-      "text": "Skill3"
-    },
-    {
-      "text": "Skill4"
-    },
-    {
-      "text": "Skill5"
+      "name": "Other",
+      "list": [
+        {
+          "text": "Digital Design"
+        },
+        {
+          "text": "Machine Learning"
+        },
+        {
+          "text": "Assembly Language"
+        },
+        {
+          "text": "Adobe Photoshop"
+        },
+        {
+          "text": "Adobe Illustrator"
+        },
+        {
+          "text": "Adobe InDesign"
+        },
+        {
+          "text": "Bloomberg"
+        },
+        {
+          "text": "FactSet"
+        }
+      ]
     }
   ]
 }

@@ -1,20 +1,65 @@
 {
   "data": [
     {
-      "date": "2011 - present",
-      "title": "Creative Director",
-      "location": "Miami, FL",
-      "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-      "icon": "work",
+      "date": "2014-2018",
+      "title": "Bachelor of Arts (BA), Dartmouth College",
+      "location": "Hanover, NH",
+      "description": "Major in Engineering Sciences (with Honors) and Economics",
+      "icon": "school",
+      "iconBackground": "rgb(233, 30, 99)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "Jan - Mar 2017",
+      "title": "Dartmouth Investment Office (DIO)",
+      "location": "Boston, MA",
+      "description": "Investment Intern",
+      "icon": "school",
       "iconBackground": "rgb(33, 150, 243)",
       "iconColor": "#fff"
     },
     {
-      "date": "2011 - present",
-      "title": "Creative Director",
-      "location": "Miami, FL",
-      "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-      "icon": "work",
+      "date": "June - Aug 2017",
+      "title": "The Investment Fund for Foundations (TIFF)",
+      "location": "Boston, MA",
+      "description": "Private Investment Summer Analyst",
+      "icon": "school",
+      "iconBackground": "rgb(33, 150, 243)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "June - Aug 2018",
+      "title": "Bank of America Merrill Lynch (BAML)",
+      "location": "New York, NY",
+      "description": "Software Developer",
+      "icon": "school",
+      "iconBackground": "rgb(33, 150, 243)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "2014-2019",
+      "title": "Bachelor of Engineering (BE), Dartmouth College",
+      "location": "Hanover, NH",
+      "description": "Computer Engineering",
+      "icon": "school",
+      "iconBackground": "rgb(233, 30, 99)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "May - Aug 2019",
+      "title": "Goldman Sachs",
+      "location": "New York, NY",
+      "description": "Engineer (Securities)",
+      "icon": "school",
+      "iconBackground": "rgb(33, 150, 243)",
+      "iconColor": "#fff"
+    },
+    {
+      "date": "2018-2020",
+      "title": "Master of Engineering Management (MEM), Dartmouth College",
+      "location": "Hanover, NH",
+      "description": "",
+      "icon": "school",
       "iconBackground": "rgb(233, 30, 99)",
       "iconColor": "#fff"
     }

@@ -4,69 +4,24 @@
       "title": "Posters",
       "art": [
         {
-          "src": "src/res/artwork/1_posters/1_Superhero.jpg",
-          "thumbnail": "src/res/artwork/1_posters/1_Superhero.jpg",
-          "thumbnailWidth": 144,
-          "thumbnailHeight": 212,
-          "caption": "Superheros vs. Villains"
+          "src": "src/res/artwork/1_posters/01_Superhero.jpg",
+          "thumbnail": "src/res/artwork/1_posters/01_Superhero.jpg",
+          "caption": "Superheros vs. Villains (digital)"
         },
         {
-          "src": "src/res/artwork/1_posters/2_Seuss.jpg",
-          "thumbnail": "src/res/artwork/1_posters/2_Seuss.jpg",
-          "thumbnailWidth": 170,
-          "thumbnailHeight": 212,
-          "caption": "Seuss on the Loose"
+          "src": "src/res/artwork/1_posters/02_Seuss.jpg",
+          "thumbnail": "src/res/artwork/1_posters/02_Seuss.jpg",
+          "caption": "Seuss on the Loose (digital)"
         },
         {
-          "src": "src/res/artwork/1_posters/3_Icecraft.jpg",
-          "thumbnail": "src/res/artwork/1_posters/3_Icecraft.jpg",
-          "thumbnailWidth": 141,
-          "thumbnailHeight": 212,
-          "caption": "Icecraft and Blizzardry"
+          "src": "src/res/artwork/1_posters/03_Icecraft.jpg",
+          "thumbnail": "src/res/artwork/1_posters/03_Icecraft.jpg",
+          "caption": "Icecraft and Blizzardry (digital)"
         },
         {
-          "src": "src/res/artwork/1_posters/4_Snow_Wars.jpg",
-          "thumbnail": "src/res/artwork/1_posters/4_Snow_Wars.jpg",
-          "thumbnailWidth": 141,
-          "thumbnailHeight": 212,
-          "caption": "Snow Wars"
-        }
-      ]
-    },
-    {
-      "title": "Paintings",
-      "art": [
-        {
-          "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-          "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 174,
-          "caption": "After Rain (Jeshu John - designerspics.com)"
-        },
-        {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212,
-          "caption": "Text"
-        },
-        {
-          "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-          "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212,
-          "caption": "Boats (Jeshu John - designerspics.com)"
-        },
-        {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212
-        },
-        {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320
+          "src": "src/res/artwork/1_posters/04_Snow_Wars.jpg",
+          "thumbnail": "src/res/artwork/1_posters/04_Snow_Wars.jpg",
+          "caption": "Snow Wars (digital)"
         }
       ]
     },
@@ -74,36 +29,84 @@
       "title": "Drawings",
       "art": [
         {
-          "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-          "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 174,
-          "caption": "After Rain (Jeshu John - designerspics.com)"
+          "src": "src/res/artwork/2_drawings/01_train.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/01_train.jpg",
+          "caption": "Train (etching"
         },
         {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212,
-          "caption": "Text"
+          "src": "src/res/artwork/2_drawings/02_sharpener.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/02_sharpener.jpg",
+          "caption": "Sharpener (pencil)"
         },
         {
-          "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-          "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212,
-          "caption": "Boats (Jeshu John - designerspics.com)"
+          "src": "src/res/artwork/2_drawings/03_phoropter.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/03_phoropter.jpg",
+          "caption": "Phoropter (colored pencil)"
         },
         {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320,
-          "thumbnailHeight": 212
+          "src": "src/res/artwork/2_drawings/04_bottles.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/04_bottles.jpg",
+          "caption": "Bottles (colored pencil)"
         },
         {
-          "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-          "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-          "thumbnailWidth": 320
+          "src": "src/res/artwork/2_drawings/05_reel.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/05_reel.jpg",
+          "caption": "Fishing Reel (colored pencil)"
+        },
+        {
+          "src": "src/res/artwork/2_drawings/06_shapes.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/06_shapes.jpg",
+          "caption": "Shapes (charcoal)"
+        },
+        {
+          "src": "src/res/artwork/2_drawings/07_eye.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/07_eye.jpg",
+          "caption": "Eye (charcoal)"
+        },
+        {
+          "src": "src/res/artwork/2_drawings/08_stairs.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/08_stairs.jpg",
+          "caption": "Stairs (charcoal)"
+        },
+        {
+          "src": "src/res/artwork/2_drawings/09_metal.jpg",
+          "thumbnail": "src/res/artwork/2_drawings/09_metal.jpg",
+          "caption": "Metal Pots (charcoal)"
+        }
+      ]
+    },
+    {
+      "title": "Paintings",
+      "art": [
+        {
+          "src": "src/res/artwork/3_paintings/01_valve.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/01_valve.jpg",
+          "caption": "Valve (acryllic paint)"
+        },
+        {
+          "src": "src/res/artwork/3_paintings/02_rope.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/02_rope.jpg",
+          "caption": "Rope (ink wash)"
+        },
+        {
+          "src": "src/res/artwork/3_paintings/03_garden.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/03_garden.jpg",
+          "caption": "Garden (oil paint)"
+        },
+        {
+          "src": "src/res/artwork/3_paintings/04_ladder.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/04_ladder.jpg",
+          "caption": "Ladder (oil paint)"
+        },
+        {
+          "src": "src/res/artwork/3_paintings/05_tools.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/05_tools.jpg",
+          "caption": "Tools (oil paint)"
+        },
+        {
+          "src": "src/res/artwork/3_paintings/06_colors.jpg",
+          "thumbnail": "src/res/artwork/3_paintings/06_colors.jpg",
+          "caption": "Colors (oil paint)"
         }
       ]
     }
