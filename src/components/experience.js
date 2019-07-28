@@ -1,3 +1,5 @@
+/* eslint max-len:0 */
+
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -55,6 +57,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
+      <div data-aos="fade-in" className="infoFooter">For more information about my experiences, please see my <a href="https://www.linkedin.com/in/john-sullivan-039349123" className="inquiry">LinkedIn</a> or <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Contact Me</a>.</div>
       <Footer data-aos="fade-in" />
     </div>
   );

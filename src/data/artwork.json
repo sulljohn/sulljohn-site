@@ -6,22 +6,30 @@
         {
           "src": "src/res/artwork/1_posters/01_Superhero.jpg",
           "thumbnail": "src/res/artwork/1_posters/01_Superhero.jpg",
-          "caption": "Superheros vs. Villains (digital)"
+          "caption": "Superheros vs. Villains (digital)",
+          "thumbnailWidth": 170,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/1_posters/02_Seuss.jpg",
           "thumbnail": "src/res/artwork/1_posters/02_Seuss.jpg",
-          "caption": "Seuss on the Loose (digital)"
+          "caption": "Seuss on the Loose (digital)",
+          "thumbnailWidth": 102,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/1_posters/03_Icecraft.jpg",
           "thumbnail": "src/res/artwork/1_posters/03_Icecraft.jpg",
-          "caption": "Icecraft and Blizzardry (digital)"
+          "caption": "Icecraft and Blizzardry (digital)",
+          "thumbnailWidth": 168,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/1_posters/04_Snow_Wars.jpg",
           "thumbnail": "src/res/artwork/1_posters/04_Snow_Wars.jpg",
-          "caption": "Snow Wars (digital)"
+          "caption": "Snow Wars (digital)",
+          "thumbnailWidth": 169,
+          "thumbnailHeight": 250
         }
       ]
     },
@@ -31,47 +39,65 @@
         {
           "src": "src/res/artwork/2_drawings/01_train.jpg",
           "thumbnail": "src/res/artwork/2_drawings/01_train.jpg",
-          "caption": "Train (etching"
+          "caption": "Train (etching)",
+          "thumbnailWidth": 198,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/02_sharpener.jpg",
           "thumbnail": "src/res/artwork/2_drawings/02_sharpener.jpg",
-          "caption": "Sharpener (pencil)"
+          "caption": "Sharpener (pencil)",
+          "thumbnailWidth": 325,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/03_phoropter.jpg",
           "thumbnail": "src/res/artwork/2_drawings/03_phoropter.jpg",
-          "caption": "Phoropter (colored pencil)"
+          "caption": "Phoropter (colored pencil)",
+          "thumbnailWidth": 327,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/04_bottles.jpg",
           "thumbnail": "src/res/artwork/2_drawings/04_bottles.jpg",
-          "caption": "Bottles (colored pencil)"
+          "caption": "Bottles (colored pencil)",
+          "thumbnailWidth": 206,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/05_reel.jpg",
           "thumbnail": "src/res/artwork/2_drawings/05_reel.jpg",
-          "caption": "Fishing Reel (colored pencil)"
+          "caption": "Fishing Reel (colored pencil)",
+          "thumbnailWidth": 322,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/06_shapes.jpg",
           "thumbnail": "src/res/artwork/2_drawings/06_shapes.jpg",
-          "caption": "Shapes (charcoal)"
+          "caption": "Shapes (charcoal)",
+          "thumbnailWidth": 202,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/07_eye.jpg",
           "thumbnail": "src/res/artwork/2_drawings/07_eye.jpg",
-          "caption": "Eye (charcoal)"
+          "caption": "Eye (charcoal)",
+          "thumbnailWidth": 337,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/08_stairs.jpg",
           "thumbnail": "src/res/artwork/2_drawings/08_stairs.jpg",
-          "caption": "Stairs (charcoal)"
+          "caption": "Stairs (charcoal)",
+          "thumbnailWidth": 187,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/2_drawings/09_metal.jpg",
           "thumbnail": "src/res/artwork/2_drawings/09_metal.jpg",
-          "caption": "Metal Pots (charcoal)"
+          "caption": "Metal Pots (charcoal)",
+          "thumbnailWidth": 344,
+          "thumbnailHeight": 250
         }
       ]
     },
@@ -81,32 +107,44 @@
         {
           "src": "src/res/artwork/3_paintings/01_valve.jpg",
           "thumbnail": "src/res/artwork/3_paintings/01_valve.jpg",
-          "caption": "Valve (acryllic paint)"
+          "caption": "Valve (acrylic paint)",
+          "thumbnailWidth": 204,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/3_paintings/02_rope.jpg",
           "thumbnail": "src/res/artwork/3_paintings/02_rope.jpg",
-          "caption": "Rope (ink wash)"
+          "caption": "Rope (ink wash)",
+          "thumbnailWidth": 364,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/3_paintings/03_garden.jpg",
           "thumbnail": "src/res/artwork/3_paintings/03_garden.jpg",
-          "caption": "Garden (oil paint)"
+          "caption": "Garden (oil paint)",
+          "thumbnailWidth": 166,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/3_paintings/04_ladder.jpg",
           "thumbnail": "src/res/artwork/3_paintings/04_ladder.jpg",
-          "caption": "Ladder (oil paint)"
+          "caption": "Ladder (oil paint)",
+          "thumbnailWidth": 200,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/3_paintings/05_tools.jpg",
           "thumbnail": "src/res/artwork/3_paintings/05_tools.jpg",
-          "caption": "Tools (oil paint)"
+          "caption": "Tools (oil paint)",
+          "thumbnailWidth": 266,
+          "thumbnailHeight": 250
         },
         {
           "src": "src/res/artwork/3_paintings/06_colors.jpg",
           "thumbnail": "src/res/artwork/3_paintings/06_colors.jpg",
-          "caption": "Colors (oil paint)"
+          "caption": "Colors (oil paint)",
+          "thumbnailWidth": 411,
+          "thumbnailHeight": 250
         }
       ]
     }
