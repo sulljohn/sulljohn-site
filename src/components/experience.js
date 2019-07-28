@@ -20,6 +20,7 @@ const Experience = () => {
         <VerticalTimeline>
           {experience.data.reverse().map(item => (
             <VerticalTimelineElement
+              key={item.title}
               className="vertical-timeline-element--work"
               date={item.date}
               iconStyle={{ background: `${item.iconBackground}`, color: `${item.iconColor}` }}
@@ -42,11 +43,11 @@ const Experience = () => {
       <div data-aos="fade-in" className="skillContainer">
         <h1>Skills</h1>
         {skills.data.map(item => (
-          <div>
+          <div key={item.name}>
             <h2>{item.name}</h2>
             <div className="skillCards">
               {item.list.map(item2 => (
-                <Card>
+                <Card key={item2.text}>
                   <CardContent>{item2.text}</CardContent>
                 </Card>
               ))}

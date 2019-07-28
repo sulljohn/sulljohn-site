@@ -8,7 +8,7 @@ const Artwork = () => {
     <div className="contentContainer">
       <div className="artContainer">
         {artwork.data.map(item => (
-          <div data-aos="fade-in" className="artSection">
+          <div key={item.title} data-aos="fade-in" className="artSection">
             <h1>{item.title}</h1>
             <Gallery images={item.art} enableImageSelection={false} />
           </div>
