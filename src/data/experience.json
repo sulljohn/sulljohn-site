@@ -14,7 +14,7 @@
       "title": "Dartmouth Investment Office (DIO)",
       "location": "Boston, MA",
       "description": "Investment Intern",
-      "icon": "school",
+      "icon": "work",
       "iconBackground": "rgb(33, 150, 243)",
       "iconColor": "#fff"
     },
@@ -23,7 +23,7 @@
       "title": "The Investment Fund for Foundations (TIFF)",
       "location": "Boston, MA",
       "description": "Private Investment Summer Analyst",
-      "icon": "school",
+      "icon": "work",
       "iconBackground": "rgb(33, 150, 243)",
       "iconColor": "#fff"
     },
@@ -32,7 +32,7 @@
       "title": "Bank of America Merrill Lynch (BAML)",
       "location": "New York, NY",
       "description": "Software Developer",
-      "icon": "school",
+      "icon": "work",
       "iconBackground": "rgb(33, 150, 243)",
       "iconColor": "#fff"
     },
@@ -50,7 +50,7 @@
       "title": "Goldman Sachs",
       "location": "New York, NY",
       "description": "Engineer (Securities)",
-      "icon": "school",
+      "icon": "work",
       "iconBackground": "rgb(33, 150, 243)",
       "iconColor": "#fff"
     },
