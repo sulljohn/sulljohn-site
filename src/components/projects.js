@@ -13,7 +13,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="projectList">
           {projects.data.map(item => (
-            <div data-aos="fade-in" className="project" key={item.title}>
+            <div key={item.title} data-aos="fade-in" className="project">
               <div className="projectImgContainer zoom2">
                 <img src={item.image} alt={item.image} className="projectImg" />
               </div>
