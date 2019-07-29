@@ -20,7 +20,7 @@ const Experience = () => {
       <div className="timeLineContainer">
         <h1>Work Experience & Education</h1>
         <VerticalTimeline>
-          {experience.data.reverse().map(item => (
+          {experience.data.map(item => (
             <VerticalTimelineElement
               key={item.title}
               className="vertical-timeline-element--work"
