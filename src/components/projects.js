@@ -10,20 +10,26 @@ const Projects = () => {
   return (
     <div className="contentContainer">
       <div className="projects">
-        <h1>Projects</h1>
-        <div className="projectList">
-          {projects.data.map(item => (
-            <div key={item.title} data-aos="fade-in" className="project">
-              <div className="projectImgContainer zoom2">
-                <img src={item.image} alt={item.image} className="projectImg" />
-              </div>
-              <div className="projectTextContainer">
-                <div className="projectTitle">{item.title}</div>
-                <div className="projectBody">{item.text}</div>
+        {
+          projects.data.map(item => (
+            <div key={item.title}>
+              <h1 data-aos="fade-in">{item.title}</h1>
+              <div className="projectList">
+                {item.data.map(item2 => (
+                  <div key={item2.title} data-aos="fade-in" className="project">
+                    <div className="projectImgContainer zoom2">
+                      <img src={item2.image} alt={item2.image} className="projectImg" />
+                    </div>
+                    <div className="projectTextContainer">
+                      <div className="projectTitle">{item2.title}</div>
+                      <div className="projectBody">{item2.text}</div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
-          ))}
-        </div>
+          ))
+        }
         <div data-aos="fade-in">
           <div className="infoFooter">For more information about any of these projects and more, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Contact Me</a>.</div>
           <Footer />
