@@ -42,10 +42,10 @@ const Experience = () => {
           />
         </VerticalTimeline>
       </div>
-      <div data-aos="fade-in" className="skillContainer">
-        <h1>Skills</h1>
+      <div className="skillContainer">
+        <h1 data-aos="fade-in">Skills</h1>
         {skills.data.map(item => (
-          <div key={item.name}>
+          <div key={item.name} data-aos="fade-in">
             <h2>{item.name}</h2>
             <div className="skillCards">
               {item.list.map(item2 => (

@@ -3,32 +3,32 @@
     {
       "title": "Effects of Vulnerability Publications on Stock Returns\n",
       "image": "src/res/projects/1_NVD_Stocks.png",
-      "text": "The National Vulnerability Database (NVD) has records of computer vulnerabilities since 1988. This study uses an event study method to test if abnormal stock returns around the publication of vulnerabilities in the NVD. The results show that returns are a statistically significant -0.63% on average at 40 days after the announcement. Using a portfolio strategy, this study shows that this strategy could have earned a significant annual alpha (excess returns) of 13.45% per annum since 2002. These results suggest that vulnerability announcements have a gradual negative impact on stock returns."
+      "text": "The National Vulnerability Database (NVD) has records of computer vulnerabilities since 1988.  This study uses an event study method to test if abnormal stock returns occur around the publication of vulnerabilities in the NVD.  The results show that returns are a statistically significant -0.63% on average at 40 days after a vulnerability announcement.  Using a portfolio strategy, this study shows that one could have earned a significant annual alpha (excess returns) of 13.45% per annum since 2002.  These results suggest that vulnerability announcements have a gradual negative impact on stock returns."
     },
     {
       "title": "National Vulnerability Database Trend Analysis",
       "image": "src/res/projects/2_NVD_Trends.png",
-      "text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security. A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited. At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall. It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general."
+      "text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security.  A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited.  At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall.  It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general."
     },
     {
       "title": "PassOn",
       "image": "src/res/projects/3_PassOn.jpg",
-      "text": "Want to learn some cool skills - or get into a new hobby? Want to expand your social circle and meet new friends? PassOn connects us together by our mutually shared hobbies and interests, allowing people to meet, connect, teach, and learn from each other.  On this app, users can input skills that they have and others that they would like to learn.  Using this information, users can connect to collaborate with other users and use these skills.  The goal is for users to learn and teach those skills that they are passionate about."
+      "text": "Want to learn some cool skills - or get into a new hobby? Want to expand your social circle and meet new friends?  PassOn connects us together by our mutually shared hobbies and interests, allowing people to meet, connect, teach, and learn from each other.  On this app, users can input skills that they have and other skills that they would like to learn.  Using this information, users can connect with each other to collaborate and use learn.  The goal is for users to learn and teach those skills that they are passionate about."
     },
     {
       "title": "Machine Tool Simulator",
       "image": "src/res/projects/4_MTool_Sim.png",
-      "text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students will be able to access remotely anytime and anywhere. This solution will improve how efficiently the machine tools are taught, reduce the time needed to educate each student, and possibly give more students time to learn in the machine shop. In addition, the team has delivered a code repository and documentation to the machine shop. In the future, this solution can be extended to other machines and courses at Thayer. Students will be able to apply their knowledge to their future engineering projects."
+      "text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students can access remotely anytime and anywhere.  This solution improves how efficiently that the machine tools are taught, reduces the time needed to educate each student, and possibly gives more students time to learn in the machine shop.  In addition, a code repository and documentation have been included with the final product.  In the future, this solution can be extended to other machines and courses at Thayer.  Students will be able to apply experience from this learning tool to other engineering projects."
     },
     {
       "title": "OneLace",
       "image": "src/res/projects/5_OneLace.png",
-      "text": "This project improves the traditional ice skate lacing system.  Currently, children are unable to efficiently and securely tie their ice skates due to lack of strength and dexterity.  This product is intended for children between the ages of five and ten learning to skate and play hockey.  The consumers of the product would be the parents of these children.  The current state of the art for ice skate lacing systems did not present an acceptable solution.  OneLace, the final product, is a system that reduces the time it takes children to securely fasten their skates, while maintaining the aesthetic of traditional skates that people like."
+      "text": "OneLace improves the traditional ice skate lacing system.  Currently, children are unable to efficiently and securely tie their ice skates due to lack of strength and dexterity.  This product is intended for children between the ages of five and ten learning how to skate and play hockey.  The consumers of this product would be the parents of these children.  The current state of the art for ice skate lacing systems did not present an acceptable solution.  OneLace, the final product, is a system that reduces the time it takes children to securely fasten their skates, while maintaining the design of traditional skates that people like."
     },
     {
-      "title": "Bridge Project",
+      "title": "Chime Bridge",
       "image": "src/res/projects/6_Bridge.jpg",
-      "text": "This musical bridge applies structural theory, as well as the aesthetics and sounds of an instrument.  This arch bridge features support from the tied arch suspensions and the trusses located underneath.  Using structural theory, the stresses on each section have been analyzed.  The chimes that are attached to the suspensions are calibrated to different frequencies, allowing a musician to play different notes in the song.  Thus, the appearance and functionality of the chimes have been incorporated into the mechanical structure of the bridge"
+      "text": "This musical bridge applies structural theory, as well as the design and sounds of an instrument.  The bridge features support from the tied arch suspensions and the trusses located underneath.  Using structural theory, the stresses on each section have been analyzed.  The chimes that are attached to the suspensions are calibrated to different frequencies, allowing a musician to play the different notes of a song.  Thus, the appearance and functionality of the chimes have been incorporated into the mechanical structure of the bridge."
     }
   ]
 }
