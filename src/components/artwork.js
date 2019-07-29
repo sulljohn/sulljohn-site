@@ -1,7 +1,11 @@
+/* eslint-disable */
+
 import React from 'react';
 import Gallery from 'react-grid-gallery';
 import Footer from './footer';
 import artwork from '../data/artwork';
+
+require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
 
 const Artwork = () => {
   return (

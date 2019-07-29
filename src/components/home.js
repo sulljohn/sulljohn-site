@@ -11,13 +11,20 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // });
 AOS.init();
 
+// Images
+const imgHeadshot = require('../res/imgs/headshot.jpg');
+const imgLinkedin = require('../res/icons/linkedin.png');
+const imgGithub = require('../res/icons/github.png');
+const imgMail = require('../res/icons/mail.png');
+const imgPhone = require('../res/icons/phone.png');
+
 const Home = () => {
   return (
     <div className="content">
       <div id="top">
         <div>
           <div className="zoom">
-            <img className="headshot" src="src/res/imgs/headshot.jpg" alt="headshot" />
+            <img className="headshot" src={imgHeadshot} alt="headshot" />
             <div>John Sullivan</div>
             <div>Welcome to my website!</div>
           </div>
@@ -45,14 +52,14 @@ const Home = () => {
       </div>
       <div className="mainFooter">
         <div id="contact">
-          <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src="src/res/icons/linkedin.png"
+          <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src={imgLinkedin}
             className="icon iconMain"
             alt="LinkedIn"
           />
           </a>
-          <a href="https://github.com/sulljohn"><img src="src/res/icons/github.png" className="icon iconMain" alt="Github" /></a>
-          <a href="mailto:js@sulljohn.com"><img src="src/res/icons/mail.png" className="icon iconMain" alt="Mail" /></a>
-          <a href="tel:+19149604440"><img src="src/res/icons/phone.png" className="icon iconMain" alt="Phone" /></a>
+          <a href="https://github.com/sulljohn"><img src={imgGithub} className="icon iconMain" alt="Github" /></a>
+          <a href="mailto:js@sulljohn.com"><img src={imgMail} className="icon iconMain" alt="Mail" /></a>
+          <a href="tel:+19149604440"><img src={imgPhone} className="icon iconMain" alt="Phone" /></a>
         </div>
         <div>Site designed by John Sullivan </div>
         <div>Copyright &copy;{new Date().getFullYear()}</div>
