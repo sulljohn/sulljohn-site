@@ -6,9 +6,10 @@ import '../style.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init({
-  once: true, // whether animation should happen only once - while scrolling down
-});
+// AOS.init({
+//   once: true, // whether animation should happen only once - while scrolling down
+// });
+AOS.init();
 
 const Home = () => {
   return (
