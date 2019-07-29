@@ -3,6 +3,7 @@ import React from 'react';
 import Footer from './footer';
 import projects from '../data/projects';
 
+// TODO: reduce thumbnail size
 const req = require.context('../res/projects/', false, /\.(jpe?g|png|gif|svg)$/);
 
 // TODO: cite others for group projects; add bridge text
