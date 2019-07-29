@@ -28,9 +28,9 @@ const Home = () => {
         </Link>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/john-sullivan-039349123" className="link">
+        <Link to="/experience" className="link">
           <div id="experience" className="zoom cell">Experience</div>
-        </a>
+        </Link>
       </div>
       <div>
         <Link to="/projects" className="link">
