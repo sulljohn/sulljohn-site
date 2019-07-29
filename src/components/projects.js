@@ -10,9 +10,6 @@ const req = require.context('../res/projects/', false, /\.(jpe?g|png|gif|svg)$/)
 // TODO: figure out why new lines not being added like mtool sim
 
 const Projects = () => {
-  console.log(req.keys());
-  console.log(req('./1_NVD_Stocks.png'));
-
   return (
     <div className="contentContainer">
       <div className="projects">
