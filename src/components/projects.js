@@ -34,7 +34,7 @@ const Projects = () => {
           ))
         }
         <div data-aos="fade-in">
-          <div className="infoFooter">For more information about any of these projects and more, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Contact Me</a>.</div>
+          <div className="infoFooter">For more information about any of these projects, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Click Here</a>.</div>
           <Footer />
         </div>
       </div>
