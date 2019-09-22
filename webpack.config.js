@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const env = process.env.NODE_ENV || 'development';
 // set to 'production' or 'development' in your env
@@ -72,6 +73,7 @@ module.exports = {
       template: './src/index.html',
       filename: './200.html',
     }),
+    new Dotenv(),
   ],
   devServer: {
     hot: true,

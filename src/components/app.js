@@ -8,18 +8,19 @@ import About from './about';
 import Experience from './experience';
 import Projects from './projects';
 import Artwork from './artwork';
+import withTracker from './withTracker';
 
 const App = () => {
   return (
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/experience" component={Experience} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/artwork" component={Artwork} />
+        <Route exact path="/" component={withTracker(Home)} />
+        <Route path="/home" component={withTracker(Home)} />
+        <Route path="/about" component={withTracker(About)} />
+        <Route path="/experience" component={withTracker(Experience)} />
+        <Route path="/projects" component={withTracker(Projects)} />
+        <Route path="/artwork" component={withTracker(Artwork)} />
         <Route render={() => (<div className="placeholder">Page Not Found</div>)} />
       </Switch>
     </Router>

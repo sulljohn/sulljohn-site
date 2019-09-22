@@ -1,4 +1,4 @@
-// keys for actiontypes
+// .env for actiontypes
 export const ActionTypes = {
   INCREMENT: 'INCREMENT',
   DECREMENT: 'DECREMENT',
