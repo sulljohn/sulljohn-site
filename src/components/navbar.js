@@ -11,10 +11,9 @@ const NavBar = () => {
     <div className="navDiv">
       <label htmlFor="show-menu" className="show-menu">&#9776;</label>
       <input type="checkbox" id="show-menu" role="button" />
-
       <ul className="topnav">
         <li><label htmlFor="show-menu"><a id="close">Close</a></label></li>
-        <li><NavLink to="/home">Home</NavLink></li>
+        <li><NavLink to="/home">John Sullivan</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         {/* <li><a href="https://www.linkedin.com/in/john-sullivan-039349123">Experience</a></li> */}
         <li><NavLink to="/experience">Experience</NavLink></li>

@@ -16,7 +16,7 @@ const About = () => {
           <div className="zoom headAbout">
             <div>
               <img className="headshot" src={imgHeadshot} alt="headshot" />
-              <div>John Sullivan</div>
+              <div>John Sullivan - Dartmouth College</div>
             </div>
           </div>
           <div className="textAbout">{about.text}</div>

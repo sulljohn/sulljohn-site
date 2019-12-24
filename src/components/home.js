@@ -25,7 +25,7 @@ const Home = () => {
         <div>
           <div className="zoom">
             <img className="headshot" src={imgHeadshot} alt="headshot" />
-            <div>John Sullivan</div>
+            <div>John Sullivan - Dartmouth College</div>
             <div>Welcome to my website!</div>
           </div>
         </div>
