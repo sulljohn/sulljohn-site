@@ -5,3 +5,4 @@ yarn-error.log
 .idea
 .env
 package-lock.json
+yarn.lock

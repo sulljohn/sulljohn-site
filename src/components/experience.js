@@ -9,8 +9,8 @@ import SchoolIcon from '@material-ui/icons/School';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Footer from './footer';
-import experience from '../data/experience';
-import skills from '../data/skills';
+import experience from '../data/experience.json';
+import skills from '../data/skills.json';
 
 // TODO: modify the timeline; add the skills at the bottom; decide whether to replace the other link to LinkedIn
 
