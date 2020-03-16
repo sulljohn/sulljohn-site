@@ -15,7 +15,7 @@ const NavBar = () => {
         <li><label htmlFor="show-menu"><a id="close">Close</a></label></li>
         <li><NavLink to="/home">John Sullivan</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
-        {/* <li><a href="https://www.linkedin.com/in/john-sullivan-039349123">Experience</a></li> */}
+        {/* <li><a href="https://www.linkedin.com/in/sulljohn">Experience</a></li> */}
         <li><NavLink to="/experience">Experience</NavLink></li>
         <li><NavLink to="/projects">Projects</NavLink></li>
         <li><NavLink to="/artwork">Artwork</NavLink></li>

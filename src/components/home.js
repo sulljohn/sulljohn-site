@@ -53,7 +53,7 @@ const Home = () => {
       </div>
       <div className="mainFooter">
         <div id="contact">
-          <a href="https://www.linkedin.com/in/john-sullivan-039349123"><img src={imgLinkedin}
+          <a href="https://www.linkedin.com/in/sulljohn"><img src={imgLinkedin}
             className="icon iconMain"
             alt="LinkedIn"
           />

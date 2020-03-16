@@ -58,7 +58,7 @@ const Experience = () => {
         ))}
       </div>
       <div data-aos="fade-in">
-        <div className="infoFooter">For more information about my experiences, please see my <a href="https://www.linkedin.com/in/john-sullivan-039349123" className="inquiry">LinkedIn</a> or <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Click Here to contact me</a>.</div>
+        <div className="infoFooter">For more information about my experiences, please see my <a href="https://www.linkedin.com/in/sulljohn" className="inquiry">LinkedIn</a> or <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Click Here to contact me</a>.</div>
         <Footer />
       </div>
     </div>
