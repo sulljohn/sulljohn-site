@@ -16,10 +16,10 @@ const Projects = () => {
         {
           projects.data.map(item => (
             <div key={item.title}>
-              <h1 data-aos="fade-in">{item.title}</h1>
+              <h1 key={item.name} data-aos="fade-down">{item.title}</h1>
               <div className="projectList">
-                {item.data.map(item2 => (
-                  <div key={item2.title} data-aos="fade-in" className="project">
+                {item.data.map((item2, index) => (
+                  <div key={item2.title} data-aos={`fade-${index % 2 === 0 ? 'right' : 'left'}`} className="project">
                     <div className="projectImgContainer zoom2">
                       <img src={req(item2.image)} alt={item2.image} className="projectImg" />
                     </div>
@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
           ))
         }
-        <div data-aos="fade-in">
+        <div data-aos="fade-up">
           <div className="infoFooter">For more information about any of these projects, please <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Click Here to contact me</a>.</div>
           <Footer />
         </div>

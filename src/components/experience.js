@@ -18,7 +18,7 @@ const Experience = () => {
   return (
     <div className="experienceContainer">
       <div className="timeLineContainer">
-        <h1>Work Experience & Education</h1>
+        <h1 data-aos="fade-down">Work Experience & Education</h1>
         <VerticalTimeline>
           {experience.data.map(item => (
             <VerticalTimelineElement
@@ -43,9 +43,9 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
       <div className="skillContainer">
-        <h1 data-aos="fade-in">Skills</h1>
-        {skills.data.map(item => (
-          <div key={item.name} data-aos="fade-in">
+        <h1 data-aos="fade-down">Skills</h1>
+        {skills.data.map((item, index) => (
+          <div key={item.name} data-aos={`fade-${index % 2 === 0 ? 'right' : 'left'}`}>
             <h2>{item.name}</h2>
             <div className="skillCards">
               {item.list.map(item2 => (
@@ -57,7 +57,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
-      <div data-aos="fade-in">
+      <div data-aos="fade-up">
         <div className="infoFooter">For more information about my experiences, please see my <a href="https://www.linkedin.com/in/sulljohn" className="inquiry">LinkedIn</a> or <a href="mailto:js@sulljohn.com?Subject=Project%20Inquiry" target="_top" className="inquiry">Click Here to contact me</a>.</div>
         <Footer />
       </div>

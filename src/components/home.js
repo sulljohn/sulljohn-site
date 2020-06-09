@@ -3,13 +3,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style.scss';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-// AOS.init({
-//   once: true, // whether animation should happen only once - while scrolling down
-// });
-AOS.init();
 
 // Images
 const imgHeadshot = require('../res/imgs/headshot.jpg');
@@ -22,7 +15,7 @@ const imgMail = require('../res/icons/mail.png');
 const Home = () => {
   return (
     <div className="content">
-      <div id="top">
+      <div id="top" data-aos="fade-down">
         <div>
           <div className="zoom">
             <img className="headshot" src={imgHeadshot} alt="headshot" />
@@ -31,27 +24,27 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div data-aos="fade-right">
         <Link to="/about" className="link">
           <div id="about" className="zoom cell">About Me</div>
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-left">
         <Link to="/experience" className="link">
           <div id="experience" className="zoom cell">Experience</div>
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-right">
         <Link to="/projects" className="link">
           <div id="projects" className="zoom cell">Projects</div>
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-left">
         <Link to="/artwork" className="link">
           <div id="artwork" className="zoom cell">Artwork</div>
         </Link>
       </div>
-      <div className="mainFooter">
+      <div className="mainFooter" data-aos="fade-up">
         <div id="contact">
           <a href="https://www.linkedin.com/in/sulljohn"><img src={imgLinkedin}
             className="icon iconMain"

@@ -11,13 +11,17 @@ const Artwork = () => {
   return (
     <div className="contentContainer">
       <div className="artContainer">
-        {artwork.data.map(item => (
-          <div key={item.title} data-aos="fade-in" className="artSection">
-            <h1>{item.title}</h1>
-            <Gallery images={item.art} enableImageSelection={false} />
+        {artwork.data.map((item, index) => (
+          <div key={item.title} className="artSection">
+            <h1 data-aos="fade-down">{item.title}</h1>
+            <div data-aos={`fade-${index % 2 === 0 ? 'right' : 'left'}`}>
+              <Gallery images={item.art} enableImageSelection={false} />
+            </div>
           </div>
         ))}
-        <Footer data-aos="fade-in" />
+        <div data-aos="fade-up">
+          <Footer />
+        </div>
       </div>
     </div>
   );

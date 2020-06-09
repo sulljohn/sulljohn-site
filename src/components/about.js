@@ -14,13 +14,13 @@ const About = () => {
     <div className="content contentAbout">
       <div id="topAbout">
         <div className="aboutFlex">
-          <div className="zoom headAbout">
+          <div className="zoom headAbout" data-aos="fade-left">
             <div>
               <img className="headshot" src={imgHeadshot} alt="headshot" />
               <div>John Sullivan - Dartmouth College</div>
             </div>
           </div>
-          <div className="textAbout">{about.text}</div>
+          <div className="textAbout" data-aos="fade-right">{about.text}</div>
         </div>
         <div className="bottomFlex">
           <div id="contact">
