@@ -13,13 +13,29 @@ import withTracker from './withTracker';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 class App extends React.Component {
+  // Loading state; source: https://stackoverflow.com/a/40989121
+  state = {
+    loading: true,
+  };
+
   componentDidMount() {
+    // Set state not loading anymore
+    this.setState({ loading: false });
+
     // Start Animate on Scroll
     // Source: https://github.com/michalsnik/aos/issues/49
-    AOS.init();
+    AOS.init({
+      startEvent: 'load',
+    });
   }
 
   render() {
+    const { loading } = this.state;
+
+    if (loading) { // if your component doesn't have to wait for an async action, remove this block
+      return null; // render null when app is not ready
+    }
+
     return (
       <Router>
         <NavBar />
