@@ -384,6 +384,11 @@ input[type=checkbox]:checked ~ ul.topnav li {
   background: url(res/background/stripe.png) repeat;
 }
 
+// To fix side scroll issue on mobile devices
+.contentContainer, .experienceContainer {
+  overflow: hidden;
+}
+
 .artContainer, .projects {
   background-color:white;
 }
