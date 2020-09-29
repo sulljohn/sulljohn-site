@@ -1,7 +1,16 @@
 {
   "data": [
     {
-      "date": "2018-2020",
+      "date": "September 2020 - Present",
+      "title": "Microsoft",
+      "location": "New York, NY",
+      "description": "Program Manager",
+      "icon": "work",
+      "iconBackground": "rgb(33, 150, 243)",
+      "iconColor": "#fff"
+    }
+    ,{
+      "date": "2018 - 2020",
       "title": "Master of Engineering Management (MEM), Thayer School of Engineering at Dartmouth",
       "location": "Hanover, NH",
       "description": "",
@@ -10,7 +19,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "June - Aug 2019",
+      "date": "June - August 2019",
       "title": "Goldman Sachs",
       "location": "New York, NY",
       "description": "Engineer (Securities)",
@@ -19,7 +28,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "2014-2019",
+      "date": "2014 - 2019",
       "title": "Bachelor of Engineering (BE), Thayer School of Engineering at Dartmouth",
       "location": "Hanover, NH",
       "description": "Computer Engineering",
@@ -28,7 +37,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "June - Aug 2018",
+      "date": "June - August 2018",
       "title": "Bank of America Merrill Lynch (BAML)",
       "location": "New York, NY",
       "description": "Software Developer",
@@ -37,7 +46,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "June - Aug 2017",
+      "date": "June - August 2017",
       "title": "The Investment Fund for Foundations (TIFF)",
       "location": "Boston, MA",
       "description": "Private Investment Summer Analyst",
@@ -46,7 +55,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "Jan - Mar 2017",
+      "date": "January - March 2017",
       "title": "Dartmouth Investment Office (DIO)",
       "location": "Boston, MA",
       "description": "Investment Intern",
@@ -55,7 +64,7 @@
       "iconColor": "#fff"
     },
     {
-      "date": "2014-2018",
+      "date": "2014 - 2018",
       "title": "Bachelor of Arts (BA), Dartmouth College",
       "location": "Hanover, NH",
       "description": "Double Major in Engineering Sciences and Economics",
