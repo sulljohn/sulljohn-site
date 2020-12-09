@@ -1,15 +1,15 @@
 /* eslint max-len:0 */
 
 import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+// import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import StarIcon from '@material-ui/icons/Star';
-import WorkIcon from '@material-ui/icons/Work';
-import SchoolIcon from '@material-ui/icons/School';
+// import StarIcon from '@material-ui/icons/Star';
+// import WorkIcon from '@material-ui/icons/Work';
+// import SchoolIcon from '@material-ui/icons/School';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Footer from './footer';
-import experience from '../data/experience.json';
+// import experience from '../data/experience.json';
 import skills from '../data/skills.json';
 
 // TODO: modify the timeline; add the skills at the bottom; decide whether to replace the other link to LinkedIn
@@ -17,7 +17,7 @@ import skills from '../data/skills.json';
 const Experience = () => {
   return (
     <div className="experienceContainer">
-      <div className="timeLineContainer">
+      {/* <div className="timeLineContainer">
         <h1 data-aos="fade-down">Work Experience & Education</h1>
         <VerticalTimeline>
           {experience.data.map(item => (
@@ -41,7 +41,7 @@ const Experience = () => {
             icon={<StarIcon />}
           />
         </VerticalTimeline>
-      </div>
+      </div> */}
       <div className="skillContainer">
         <h1 data-aos="fade-down">Skills</h1>
         {skills.data.map((item, index) => (
