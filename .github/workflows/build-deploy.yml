@@ -1,4 +1,4 @@
-# Source: https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
+# Source: https://codeburst.io/deploying-a-react-app-using-github-pages-and-github-actions-7fc14d380796
 name: Build & deploy
 
 on:
