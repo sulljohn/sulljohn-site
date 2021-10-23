@@ -37,7 +37,7 @@ class App extends React.Component {
     }
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
           <Route exact path="/" component={withTracker(Home)} />

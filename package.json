@@ -5,6 +5,7 @@
   "repository": "git@github.com:dartmouth-cs52-19S/starterpack-sulljohn.git",
   "author": "John Sullivan <js@sulljohn.com>",
   "license": "MIT",
+  "homepage": "https://sulljohn.github.io/sulljohn-site/",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
     "test": "eslint src/**.js",
