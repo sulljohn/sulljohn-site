@@ -10,8 +10,7 @@
     "start": "NODE_ENV=development webpack-dev-server",
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --color",
-    "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d sulljohn.com; surge -p dist -d sulljohn.me; surge -p dist -d sulljohn.surge.sh; yarn clean"
+    "clean": "rimraf dist"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
