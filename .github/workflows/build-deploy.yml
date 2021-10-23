@@ -24,7 +24,7 @@ jobs:
           node-version: 15.x
 
       - name: Install NPM packages
-        run: npm install --global yarn
+        run: npm install --global yarn rimraf
 
       - name: Build project
         run: yarn build
