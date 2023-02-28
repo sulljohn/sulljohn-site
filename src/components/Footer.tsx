@@ -16,7 +16,7 @@ interface IProps {
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 function Footer({ mode }: IProps) {
   return (
-    <div className="footer2">
+    <div className="footer">
       <div id="contact">
         <a href="https://www.linkedin.com/in/sulljohn" target="_blank" rel="noreferrer">
           <img
