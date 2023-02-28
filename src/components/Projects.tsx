@@ -39,13 +39,13 @@ export default function Projects() {
           <Grid container spacing={2}>
             {
               projects.data.map((item, index) => (
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={6} md={4} key={item.title}>
                   <Card sx={{ my: 2 }}>
                     <CardMedia
                         /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
                       image={req(item.image)}
                       sx={{ height: 400 }}
-                      title="green iguana"
+                      title={`${item.title} Image`}
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
