@@ -9,7 +9,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 import {
   Routes, Route,
 } from 'react-router-dom';
+import ErrorPage from './ErrorPage';
 import Info from './Info';
+import Artwork from './Artwork';
 import NavTabs from '../components/NavTabs';
 
 interface IProps {
@@ -56,6 +58,8 @@ function MyApp({ mode, setMode }: IProps) {
       <NavTabs />
       <Routes>
         <Route path="/" element={<Info />} />
+        <Route path="/artwork" element={<Artwork />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Container>
   );

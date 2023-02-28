@@ -11,6 +11,7 @@ interface LinkTabProps {
 
 const routes = [
   { label: 'Info', path: '/' },
+  { label: 'Artwork', path: '/artwork' },
 ];
 
 function LinkTab(props: LinkTabProps) {
