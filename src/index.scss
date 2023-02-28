@@ -15,3 +15,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+// Footer
+.footer2 {
+  height: 20vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+// Footer icons
+.icon {
+  height: 40px;
+  margin: 8px;
+}
+
+// Invert icon if it is in dark mode
+.inv-color {
+  filter: invert(1);
+}

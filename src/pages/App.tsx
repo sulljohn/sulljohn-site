@@ -13,6 +13,7 @@ import ErrorPage from './ErrorPage';
 import Info from './Info';
 import Artwork from './Artwork';
 import NavTabs from '../components/NavTabs';
+import Footer from '../components/Footer';
 
 interface IProps {
   mode: 'light' | 'dark' | 'system',
@@ -61,6 +62,7 @@ function MyApp({ mode, setMode }: IProps) {
         <Route path="/artwork" element={<Artwork />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer mode={mode} />
     </Container>
   );
 }
