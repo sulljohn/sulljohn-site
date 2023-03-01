@@ -5,7 +5,7 @@ import {
 import { Gallery } from 'react-grid-gallery';
 import artwork from '../data/artwork.json';
 
-require.context('../res/artwork/', false, /\.(jpe?g|png|gif|svg)$/);
+require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
 
 export default function Art() {
   return (
