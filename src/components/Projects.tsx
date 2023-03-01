@@ -11,6 +11,7 @@ const req = require.context('../res/projects/', false, /\.(jpe?g|png|gif|svg)$/)
 // Source: https://mui.com/material-ui/react-dialog/#transitions
 const Transition = React.forwardRef((
   props: TransitionProps & {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     children: React.ReactElement<any, any>;
   },
   ref: React.Ref<unknown>,
