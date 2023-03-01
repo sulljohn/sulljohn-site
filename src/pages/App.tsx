@@ -65,7 +65,7 @@ function MyApp({ mode, setMode }: IProps) {
       </Box>
       <NavTabs />
       <Routes>
-        <Route path="/" element={<Info />} />
+        <Route path="/" element={<Info mode={mode} />} />
         <Route path="/artwork" element={<Artwork />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

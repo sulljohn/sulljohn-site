@@ -17,8 +17,12 @@ const Transition = React.forwardRef((
   // eslint-disable-next-line react/jsx-props-no-spreading
 ) => <Slide direction="up" ref={ref} {...props} />);
 
+interface IProps {
+  mode: 'light' | 'dark' | 'system'
+}
+
 // Card source: https://www.youtube.com/watch?v=UNCq01LNNrg
-export default function Projects() {
+export default function Projects({ mode }: IProps) {
   const [open, setOpen] = React.useState(false); // Whether modal open or not
   const [project, setProject] = React.useState(projects.data[0]); // Store project for modal
 
@@ -40,7 +44,7 @@ export default function Projects() {
             {
               projects.data.map((item, index) => (
                 <Grid item xs={12} sm={6} md={4} key={item.title}>
-                  <Card sx={{ my: 2 }}>
+                  <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }}>
                     <CardMedia
                         /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
                       image={req(item.image)}

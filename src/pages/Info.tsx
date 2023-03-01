@@ -3,11 +3,15 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
 
-export default function Info() {
+interface IProps {
+  mode: 'light' | 'dark' | 'system'
+}
+
+export default function Info({ mode }: IProps) {
   return (
     <div>
       <About />
-      <Projects />
+      <Projects mode={mode} />
       <Experience />
     </div>
   );
