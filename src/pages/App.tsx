@@ -85,10 +85,15 @@ export default function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const [mode, setMode] = React.useState<'light' | 'dark' | 'system'>(getStoredColor());
 
+  const finalMode = mode === 'system' ? (prefersDarkMode ? 'dark' : 'light') : mode; // eslint-disable-line no-nested-ternary
+
   const theme = React.useMemo(
     () => createTheme({
       palette: {
-        mode: mode === 'system' ? (prefersDarkMode ? 'dark' : 'light') : mode, // eslint-disable-line no-nested-ternary
+        mode: finalMode,
+        background: {
+          default: finalMode === 'light' ? '#F5F7FC' : '#0F0F0F',
+        },
       },
     }),
     [mode],

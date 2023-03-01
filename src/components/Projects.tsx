@@ -81,7 +81,7 @@ export default function Projects() {
           keepMounted
           onClose={handleClose}
           aria-describedby="alert-dialog-slide-description"
-          maxWidth="sm"
+          maxWidth="xs"
         >
           {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
           <img src={req(project.image)} alt={`${project.title}`} />
@@ -91,7 +91,7 @@ export default function Projects() {
               {project.long_text}
             </DialogContentText>
           </DialogContent>
-          <Stack direction="row" spacing={1} sx={{ mx: 2, mt: 1 }}>
+          <Stack direction="row" spacing={1} sx={{ mx: 3, mt: 2 }}>
             {
               // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
               project.languages.map((language) => (
