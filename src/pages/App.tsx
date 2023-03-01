@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from 'react';
+import React, { Dispatch, SetStateAction, useEffect } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -9,6 +9,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import {
   Routes, Route,
 } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import ErrorPage from './ErrorPage';
 import Info from './Info';
 import Artwork from './Artwork';
@@ -21,6 +23,11 @@ interface IProps {
 }
 
 function MyApp({ mode, setMode }: IProps) {
+  useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+    AOS.init();
+  }, []);
+
   const handleChangeThemeMode = (paletteMode: 'light' | 'dark' | 'system') => {
     setMode(paletteMode);
     localStorage.setItem('mui-mode', paletteMode);
