@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Typography, Card, CardContent, CardHeader, Grid, CardActions, Button, CardMedia,
-  Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Slide,
+  Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Slide, Chip, Stack, Box,
 } from '@mui/material';
 import { TransitionProps } from '@mui/material/transitions';
 import projects from '../data/projects.json';
@@ -45,23 +45,31 @@ export default function Projects() {
                         /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
                       image={req(item.image)}
                       sx={{ height: 400 }}
-                      title={`${item.title} Image`}
+                      title={`${item.title}`}
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         {item.title}
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
-                        {item.text}
+                        {item.short_text}
                       </Typography>
                     </CardContent>
+                    <Stack direction="row" spacing={1} sx={{ px: 2 }}>
+                      {
+                        // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+                        item.languages.map((language) => (
+                          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
+                          <Chip label={language.name} key={language.name} variant="outlined" size="small" />
+                        ))
+                      }
+                    </Stack>
                     <CardActions>
                       {item.link !== '' ? <Button size="small">Link</Button> : ''}
                       {item.code !== '' ? <Button size="small">Code</Button> : ''}
                       <Button size="small" onClick={() => handleClickOpen(index)}>More Info</Button>
                     </CardActions>
                   </Card>
-
                 </Grid>
               ))
             }
@@ -73,18 +81,37 @@ export default function Projects() {
           keepMounted
           onClose={handleClose}
           aria-describedby="alert-dialog-slide-description"
+          maxWidth="sm"
         >
-          <DialogTitle>{project.title}</DialogTitle>
+          {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
+          <img src={req(project.image)} alt={`${project.title}`} />
+          <DialogTitle sx={{ pb: 1 }}>{project.title}</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-slide-description">
-              Let Google help apps determine location. This means sending anonymous
-              location data to Google, even when no apps are running.
+              {project.long_text}
             </DialogContentText>
           </DialogContent>
-          <DialogActions>
-            <Button onClick={handleClose}>Disagree</Button>
-            <Button onClick={handleClose}>Agree</Button>
-          </DialogActions>
+          <Stack direction="row" spacing={1} sx={{ mx: 2, mt: 1 }}>
+            {
+              // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+              project.languages.map((language) => (
+                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
+                <Chip label={language.name} key={language.name} variant="outlined" size="small" />
+              ))
+            }
+          </Stack>
+          <Box sx={{
+            mx: 2, my: 1, display: 'flex', justifyContent: 'space-between',
+          }}
+          >
+            <div>
+              {project.link !== '' ? <Button size="small">Link</Button> : ''}
+              {project.code !== '' ? <Button size="small">Code</Button> : ''}
+            </div>
+            <div>
+              <Button onClick={handleClose}>Close</Button>
+            </div>
+          </Box>
         </Dialog>
       </CardContent>
     </Card>
