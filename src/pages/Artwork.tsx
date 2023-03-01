@@ -1,10 +1,10 @@
 import React from 'react';
-import Gallery from '../components/Gallery';
+import Art from '../components/Art';
 
 export default function Artwork() {
   return (
     <div>
-      <Gallery />
+      <Art />
     </div>
   );
 }
