@@ -4,19 +4,14 @@
       "name": "Advanced",
       "list": [
         {
-          "text": "Java"
+          "text": "Web Development"
         },
         {
-          "text": "C Programming"
+          "text": "Ruby on Rails"
         },
         {
-          "text": "Matlab"
-        }
-      ]
-    },
-    {
-      "name": "Intermediate",
-      "list": [
+          "text": "React"
+        },
         {
           "text": "HTML"
         },
@@ -27,13 +22,27 @@
           "text": "CSS"
         },
         {
-          "text": "React"
+          "text": "SQL"
         },
         {
-          "text": "LaTeX"
+          "text": "Java"
+        }
+      ]
+    },
+    {
+      "name": "Intermediate",
+      "list": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "C#"
         },
         {
           "text": "VHDL"
+        },
+        {
+          "text": "Matlab"
         }
       ]
     },
@@ -41,10 +50,13 @@
       "name": "Basic",
       "list": [
         {
-          "text": "Scala"
+          "text": "Python"
         },
         {
-          "text": "Stata"
+          "text": "R"
+        },
+        {
+          "text": "Scala"
         }
       ]
     },
@@ -58,7 +70,7 @@
           "text": "Machine Learning"
         },
         {
-          "text": "Assembly Code"
+          "text": "Assembly Language"
         },
         {
           "text": "Adobe Photoshop"
@@ -68,12 +80,6 @@
         },
         {
           "text": "Adobe InDesign"
-        },
-        {
-          "text": "Bloomberg"
-        },
-        {
-          "text": "FactSet"
         }
       ]
     }
