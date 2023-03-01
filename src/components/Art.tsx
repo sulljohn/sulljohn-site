@@ -5,9 +5,25 @@ import {
 import { Gallery } from 'react-grid-gallery';
 import artwork from '../data/artwork.json';
 
-require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
+const req = require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
 
 export default function Art() {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+  artwork.data.forEach((elem) => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+    elem.art.forEach((elem2) => {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
+      console.log(req(elem2.src));
+
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
+      console.log(req(elem2.thumbnail));
+      console.log(elem2);
+    });
+  });
+
+  console.log(artwork);
+  console.log(req('./1_posters/01_Superhero.jpg'));
+
   return (
     <Card sx={{ my: 2 }}>
       <CardHeader title="Artwork" sx={{ pb: 0 }} />
