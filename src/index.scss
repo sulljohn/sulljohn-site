@@ -35,3 +35,9 @@ body {
 .inv-color {
   filter: invert(1);
 }
+
+// Setup for a flex column
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

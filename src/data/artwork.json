@@ -7,8 +7,8 @@
           "src_orig": "./1_posters/01_Superhero.jpg",
           "thumbnail_orig": "./1_posters/01_Superhero_tn.jpg",
           "caption": "Superheros vs. Villains (digital)",
-          "width": 170,
-          "height": 250,
+          "thumbnailWidth": 170,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -16,8 +16,8 @@
           "src_orig": "./1_posters/02_Seuss.jpg",
           "thumbnail_orig": "./1_posters/02_Seuss_tn.jpg",
           "caption": "Seuss on the Loose (digital)",
-          "width": 200,
-          "height": 250,
+          "thumbnailWidth": 200,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -25,8 +25,8 @@
           "src_orig": "./1_posters/03_Icecraft.jpg",
           "thumbnail_orig": "./1_posters/03_Icecraft_tn.jpg",
           "caption": "Icecraft and Blizzardry (digital)",
-          "width": 167,
-          "height": 250,
+          "thumbnailWidth": 167,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -34,8 +34,8 @@
           "src_orig": "./1_posters/04_Snow_Wars.jpg",
           "thumbnail_orig": "./1_posters/04_Snow_Wars_tn.jpg",
           "caption": "Snow Wars (digital)",
-          "width": 167,
-          "height": 250,
+          "thumbnailWidth": 167,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         }
@@ -48,8 +48,8 @@
           "src_orig": "./2_drawings/01_train.jpg",
           "thumbnail_orig": "./2_drawings/01_train_tn.jpg",
           "caption": "Train (etching)",
-          "width": 195,
-          "height": 250,
+          "thumbnailWidth": 195,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -57,8 +57,8 @@
           "src_orig": "./2_drawings/02_sharpener.jpg",
           "thumbnail_orig": "./2_drawings/02_sharpener_tn.jpg",
           "caption": "Sharpener (pencil)",
-          "width": 319,
-          "height": 250,
+          "thumbnailWidth": 319,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -66,8 +66,8 @@
           "src_orig": "./2_drawings/03_phoropter.jpg",
           "thumbnail_orig": "./2_drawings/03_phoropter_tn.jpg",
           "caption": "Phoropter (colored pencil)",
-          "width": 319,
-          "height": 250,
+          "thumbnailWidth": 319,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -75,8 +75,8 @@
           "src_orig": "./2_drawings/04_bottles.jpg",
           "thumbnail_orig": "./2_drawings/04_bottles_tn.jpg",
           "caption": "Bottles (colored pencil)",
-          "width": 200,
-          "height": 250,
+          "thumbnailWidth": 200,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -84,8 +84,8 @@
           "src_orig": "./2_drawings/05_reel.jpg",
           "thumbnail_orig": "./2_drawings/05_reel_tn.jpg",
           "caption": "Fishing Reel (colored pencil)",
-          "width": 312,
-          "height": 250,
+          "thumbnailWidth": 312,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -93,8 +93,8 @@
           "src_orig": "./2_drawings/06_shapes.jpg",
           "thumbnail_orig": "./2_drawings/06_shapes_tn.jpg",
           "caption": "Shapes (charcoal)",
-          "width": 195,
-          "height": 250,
+          "thumbnailWidth": 195,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -102,8 +102,8 @@
           "src_orig": "./2_drawings/07_eye.jpg",
           "thumbnail_orig": "./2_drawings/07_eye_tn.jpg",
           "caption": "Eye (charcoal)",
-          "width": 324,
-          "height": 250,
+          "thumbnailWidth": 324,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -111,8 +111,8 @@
           "src_orig": "./2_drawings/08_stairs.jpg",
           "thumbnail_orig": "./2_drawings/08_stairs_tn.jpg",
           "caption": "Stairs (charcoal)",
-          "width": 179,
-          "height": 250,
+          "thumbnailWidth": 179,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -120,8 +120,8 @@
           "src_orig": "./2_drawings/09_metal.jpg",
           "thumbnail_orig": "./2_drawings/09_metal_tn.jpg",
           "caption": "Metal Pots (charcoal)",
-          "width": 328,
-          "height": 250,
+          "thumbnailWidth": 328,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         }
@@ -134,8 +134,8 @@
           "src_orig": "./3_paintings/01_valve.jpg",
           "thumbnail_orig": "./3_paintings/01_valve_tn.jpg",
           "caption": "Valve (acrylic paint)",
-          "width": 194,
-          "height": 250,
+          "thumbnailWidth": 194,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -143,8 +143,8 @@
           "src_orig": "./3_paintings/02_rope.jpg",
           "thumbnail_orig": "./3_paintings/02_rope_tn.jpg",
           "caption": "Rope (ink wash)",
-          "width": 345,
-          "height": 250,
+          "thumbnailWidth": 345,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -152,8 +152,8 @@
           "src_orig": "./3_paintings/03_garden.jpg",
           "thumbnail_orig": "./3_paintings/03_garden_tn.jpg",
           "caption": "Garden (oil paint)",
-          "width": 157,
-          "height": 250,
+          "thumbnailWidth": 157,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -161,8 +161,8 @@
           "src_orig": "./3_paintings/04_ladder.jpg",
           "thumbnail_orig": "./3_paintings/04_ladder_tn.jpg",
           "caption": "Ladder (oil paint)",
-          "width": 188,
-          "height": 250,
+          "thumbnailWidth": 188,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -170,8 +170,8 @@
           "src_orig": "./3_paintings/05_tools.jpg",
           "thumbnail_orig": "./3_paintings/05_tools_tn.jpg",
           "caption": "Tools (oil paint)",
-          "width": 249,
-          "height": 250,
+          "thumbnailWidth": 249,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         },
@@ -179,8 +179,8 @@
           "src_orig": "./3_paintings/06_colors.jpg",
           "thumbnail_orig": "./3_paintings/06_colors_tn.jpg",
           "caption": "Colors (oil paint)",
-          "width": 384,
-          "height": 250,
+          "thumbnailWidth": 384,
+          "thumbnailHeight": 250,
           "src": "",
           "thumbnail": ""
         }
