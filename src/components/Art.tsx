@@ -13,16 +13,12 @@ export default function Art() {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
     elem.art.forEach((elem2) => {
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
-      console.log(req(elem2.src));
+      elem2.src = req(elem2.src_orig);
 
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
-      console.log(req(elem2.thumbnail));
-      console.log(elem2);
+      elem2.thumbnail = req(elem2.thumbnail_orig);
     });
   });
-
-  console.log(artwork);
-  console.log(req('./1_posters/01_Superhero.jpg'));
 
   return (
     <Card sx={{ my: 2 }}>
