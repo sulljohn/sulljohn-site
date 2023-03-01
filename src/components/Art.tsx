@@ -5,21 +5,24 @@ import {
 import { Gallery } from 'react-grid-gallery';
 import artwork from '../data/artwork.json';
 
+// Import images
 const req = require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
 
-export default function Art() {
+// Update object with the proper location for the image; it's static so only needs to be run once
+
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+artwork.data.forEach((elem) => {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
-  artwork.data.forEach((elem) => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
-    elem.art.forEach((elem2) => {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
-      elem2.src = req(elem2.src_orig);
+  elem.art.forEach((elem2) => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
+    elem2.src = req(elem2.src_orig);
 
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
-      elem2.thumbnail = req(elem2.thumbnail_orig);
-    });
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument,@typescript-eslint/no-unsafe-member-access,no-param-reassign
+    elem2.thumbnail = req(elem2.thumbnail_orig);
   });
+});
 
+export default function Art() {
   return (
     <Card sx={{ my: 2 }}>
       <CardHeader title="Artwork" sx={{ pb: 0 }} />
