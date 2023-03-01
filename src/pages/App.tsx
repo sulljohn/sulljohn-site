@@ -1,5 +1,5 @@
 import React, {
-  Dispatch, SetStateAction, useEffect, useState,
+  Dispatch, SetStateAction, useEffect,
 } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
@@ -26,13 +26,12 @@ interface IProps {
 
 function MyApp({ mode, setMode }: IProps) {
   useEffect(() => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+    // Initialize Animate on Scroll library
     AOS.init();
   }, []);
 
-  // Handling AOS refresh effect on state
   useEffect(() => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+    // Handling AOS refresh effect on state
     AOS.refresh();
   }, [mode]);
 
