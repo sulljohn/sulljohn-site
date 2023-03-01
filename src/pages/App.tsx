@@ -1,4 +1,6 @@
-import React, { Dispatch, SetStateAction, useEffect } from 'react';
+import React, {
+  Dispatch, SetStateAction, useEffect, useState,
+} from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -27,6 +29,12 @@ function MyApp({ mode, setMode }: IProps) {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
     AOS.init();
   }, []);
+
+  // Handling AOS refresh effect on state
+  useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+    AOS.refresh();
+  }, [mode]);
 
   const handleChangeThemeMode = (paletteMode: 'light' | 'dark' | 'system') => {
     setMode(paletteMode);

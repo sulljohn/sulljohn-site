@@ -36,7 +36,7 @@ export default function Projects({ mode }: IProps) {
   };
 
   return (
-    <Card sx={{ my: 2 }}>
+    <Card sx={{ my: 2 }} data-aos="fade-up">
       <CardHeader title="Projects" sx={{ pb: 0 }} />
       <CardContent>
         <Typography component="div" variant="body1" sx={{ my: 1 }}>
@@ -44,7 +44,7 @@ export default function Projects({ mode }: IProps) {
             {
               projects.data.map((item, index) => (
                 <Grid item xs={12} sm={6} md={4} key={item.title}>
-                  <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }}>
+                  <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }} data-aos="fade-up">
                     <CardMedia
                         /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
                       image={req(item.image)}

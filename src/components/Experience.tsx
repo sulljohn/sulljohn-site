@@ -5,7 +5,7 @@ import {
 
 export default function Projects() {
   return (
-    <Card sx={{ my: 2 }}>
+    <Card sx={{ my: 2 }} data-aos="fade-up">
       <CardHeader title="Experience" sx={{ pb: 0 }} />
       <CardContent>
         <Typography component="div" variant="body1" sx={{ my: 1 }}>

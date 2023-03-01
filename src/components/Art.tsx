@@ -24,7 +24,7 @@ artwork.data.forEach((elem) => {
 
 export default function Art() {
   return (
-    <Card sx={{ my: 2 }}>
+    <Card sx={{ my: 2 }} data-aos="fade-up">
       <CardHeader title="Artwork" sx={{ pb: 0 }} />
       <CardContent sx={{ pt: 0 }}>
         <div className="flex-column">
