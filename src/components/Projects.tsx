@@ -38,20 +38,23 @@ export default function Projects({ mode }: IProps) {
 
   return (
     <Card sx={{ my: 2 }} data-aos="fade-up">
-      <CardHeader title="Projects" sx={{ pb: 0 }} />
+      <CardHeader title="Personal Projects" sx={{ pb: 0 }} />
       <CardContent>
         <Typography component="div" variant="body1" sx={{ my: 1 }}>
           <Grid container spacing={2}>
             {
               projects.data.map((item, index) => (
-                <Grid item xs={12} sm={6} md={4} key={item.title}>
+                <Grid item xs={12} sm={12} md={6} lg={6} key={item.title}>
                   <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }} data-aos="fade-up">
-                    <CardMedia
+                    {item.image !== ''
+                      ? (
+                        <CardMedia
                         /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
-                      image={req(item.image)}
-                      sx={{ height: 400 }}
-                      title={`${item.title}`}
-                    />
+                          image={req(item.image)}
+                          sx={{ height: 260 }}
+                          title={`${item.title}`}
+                        />
+                      ) : ''}
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         {item.title}
@@ -69,9 +72,9 @@ export default function Projects({ mode }: IProps) {
                         ))
                       }
                     </Stack>
-                    <CardActions>
-                      {item.link !== '' ? <Button size="small">Link</Button> : ''}
-                      {item.code !== '' ? <Button size="small">Code</Button> : ''}
+                    <CardActions disableSpacing>
+                      {item.link !== '' ? <Button size="small" href={item.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+                      {item.code !== '' ? <Button size="small" href={item.code} target="_blank" sx={{ mr: 0.5 }}>Code</Button> : ''}
                       <Button size="small" onClick={() => handleClickOpen(index)}>More Info</Button>
                     </CardActions>
                   </Card>
@@ -89,9 +92,9 @@ export default function Projects({ mode }: IProps) {
           maxWidth="xs"
         >
           {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
-          <img src={req(project.image)} alt={`${project.title}`} />
+          {project.image !== '' ? <img src={req(project.image)} alt={`${project.title}`} /> : ''}
           <DialogTitle sx={{ pb: 1 }}>{project.title}</DialogTitle>
-          <DialogContent>
+          <DialogContent sx={{ pb: 0 }}>
             <DialogContentText id="alert-dialog-slide-description">
               {project.long_text}
             </DialogContentText>
@@ -110,8 +113,8 @@ export default function Projects({ mode }: IProps) {
           }}
           >
             <div>
-              {project.link !== '' ? <Button size="small">Link</Button> : ''}
-              {project.code !== '' ? <Button size="small">Code</Button> : ''}
+              {project.link !== '' ? <Button size="small" href={project.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+              {project.code !== '' ? <Button size="small" href={project.code} target="_blank">Code</Button> : ''}
             </div>
             <div>
               <Button onClick={handleClose}>Close</Button>
