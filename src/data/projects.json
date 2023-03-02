@@ -34,7 +34,7 @@
       "link": "https://www.strengthclip.com/",
       "paper": "",
       "presentation": "",
-      "code": "https://github.com/Machine-Tool-Simulator/Simulator-Web-Client",
+      "code": "",
       "languages": [
         {
           "name": "Ruby on Rails"
@@ -162,8 +162,8 @@
       "short_text": "This paper uses computer vulnerability and exploit data to perform an analysis using LDA (Latent Dirichlet Allocation), to classify vulnerabilities that are at a high risk to be exploited and possibly already have to prioritize remediation.",
       "long_text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security. A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited. At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall. It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general.",
       "link": "",
-      "paper": "./John_Sullivan_-_NVD_Trend_Analysis_(2018).pdf",
-      "presentation": "./John_Sullivan_-_NVD_Trend_Analysis_(2018)_Presentation.pdf",
+      "paper": "./papers/John_Sullivan_-_NVD_Trend_Analysis_(2018).pdf",
+      "presentation": "./presentations/John_Sullivan_-_NVD_Trend_Analysis_(2018)_Presentation.pdf",
       "code": "",
       "languages": [
         {
@@ -181,7 +181,7 @@
       "long_text": "OneLace improves the traditional ice skate lacing system. Currently, children are unable to quickly and securely tie their ice skates because of their lack of strength and dexterity. This product is intended for children between the ages of five and ten who are learning how to skate and to play hockey. The consumers of this product would be the parents of these children. The current state of the art for ice skate lacing systems did not present an acceptable solution. OneLace, the final product, is a system that reduces the time it takes for children to securely fasten their skates, while maintaining the design of traditional skates that people like. (See picture for design prototype.)",
       "link": "",
       "paper": "./papers/OneLace_Report.pdf",
-      "presentation": "./papers/OneLace_Presentation.pdf",
+      "presentation": "./presentations/OneLace_Presentation.pdf",
       "code": "",
       "languages": [
         {
