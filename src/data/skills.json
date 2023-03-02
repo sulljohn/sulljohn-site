@@ -4,13 +4,36 @@
       "name": "Advanced",
       "list": [
         {
-          "text": "Java"
+          "text": "Web Development",
+          "link": ""
         },
         {
-          "text": "C Programming"
+          "text": "Ruby on Rails",
+          "link": ""
         },
         {
-          "text": "Matlab"
+          "text": "React",
+          "link": ""
+        },
+        {
+          "text": "HTML",
+          "link": ""
+        },
+        {
+          "text": "JavaScript",
+          "link": ""
+        },
+        {
+          "text": "CSS",
+          "link": ""
+        },
+        {
+          "text": "SQL",
+          "link": ""
+        },
+        {
+          "text": "Java",
+          "link": ""
         }
       ]
     },
@@ -18,22 +41,20 @@
       "name": "Intermediate",
       "list": [
         {
-          "text": "HTML"
+          "text": "C",
+          "link": ""
         },
         {
-          "text": "JavaScript"
+          "text": "C#",
+          "link": ""
         },
         {
-          "text": "CSS"
+          "text": "VHDL",
+          "link": ""
         },
         {
-          "text": "React"
-        },
-        {
-          "text": "LaTeX"
-        },
-        {
-          "text": "VHDL"
+          "text": "Matlab",
+          "link": ""
         }
       ]
     },
@@ -41,10 +62,16 @@
       "name": "Basic",
       "list": [
         {
-          "text": "Scala"
+          "text": "Python",
+          "link": ""
         },
         {
-          "text": "Stata"
+          "text": "R",
+          "link": ""
+        },
+        {
+          "text": "Scala",
+          "link": ""
         }
       ]
     },
@@ -52,28 +79,86 @@
       "name": "Other",
       "list": [
         {
-          "text": "Digital Design"
+          "text": "Digital Design",
+          "link": ""
         },
         {
-          "text": "Machine Learning"
+          "text": "Machine Learning",
+          "link": ""
         },
         {
-          "text": "Assembly Code"
+          "text": "Assembly Language",
+          "link": ""
         },
         {
-          "text": "Adobe Photoshop"
+          "text": "Adobe Photoshop",
+          "link": ""
         },
         {
-          "text": "Adobe Illustrator"
+          "text": "Adobe Illustrator",
+          "link": ""
         },
         {
-          "text": "Adobe InDesign"
+          "text": "Adobe InDesign",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "name": "Certifications (clickable)",
+      "list": [
+        {
+          "text": "Emergency Medical Technician",
+          "link": "https://nremt.org/"
         },
         {
-          "text": "Bloomberg"
+          "text": "Fundamentals of Engineering (FE): Electrical and Computer",
+          "link": "https://account.ncees.org/rn/2021649-1336927-73cf0e3"
+        }
+      ]
+    },
+    {
+      "name": "Courses (clickable)",
+      "list": [
+        {
+          "text": "Machine Learning",
+          "link": "https://www.coursera.org/account/accomplishments/verify/RQXMGPLZEN7V"
         },
         {
-          "text": "FactSet"
+          "text": "Ruby on Rails",
+          "link": "https://www.udemy.com/certificate/UC-5ce38fb1-37ad-4223-abed-4cb997126888/"
+        },
+        {
+          "text": "Tensorflow",
+          "link": "https://www.udemy.com/certificate/UC-52681724-9d4d-44a0-8ac2-384c3df7a272/"
+        },
+        {
+          "text": "Linear Circuits 1: DC Analysis",
+          "link": "https://www.coursera.org/account/accomplishments/verify/EFNGLRBYR6Z9"
+        },
+        {
+          "text": "Linear Circuits 2: AC Analysis",
+          "link": "https://www.coursera.org/account/accomplishments/verify/SAGGTRKMFSTW"
+        },
+        {
+          "text": "Introduction to Electronics",
+          "link": "https://www.coursera.org/account/accomplishments/verify/QFXXMT89WFZS"
+        },
+        {
+          "text": "Power Engineering: Power System Analysis - Part 1",
+          "link": "https://www.udemy.com/certificate/UC-6779c187-1201-4e89-a976-999ad08fe6f2/"
+        },
+        {
+          "text": "Power Engineering: Power System Analysis - Part 2",
+          "link": "https://www.udemy.com/certificate/UC-0493543d-7d44-4219-98cc-2cc9f67d9288/"
+        },
+        {
+          "text": "Figma",
+          "link": "https://www.udemy.com/certificate/UC-93640f35-a015-4cf9-97fe-c0fea9ce9f45/"
+        },
+        {
+          "text": "Drawing and Painting on the iPad with Procreate",
+          "link": "https://www.udemy.com/certificate/UC-ee98361e-66d8-4feb-97c0-81f1ea746fa0/"
         }
       ]
     }

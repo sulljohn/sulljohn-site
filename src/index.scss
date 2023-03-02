@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Footer
+.footer {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// Footer icons
+.icon {
+  height: 40px;
+  margin: 8px;
+}
+
+// Invert icon if it is in dark mode
+.inv-color {
+  filter: invert(1);
+}
+
+// Setup for a flex column
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
