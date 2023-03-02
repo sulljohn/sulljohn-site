@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Typography, Card, CardContent, CardHeader, Stack, Chip,
+  Typography, Card, CardContent, CardHeader, Stack, Chip, Link,
 } from '@mui/material';
 import skills from '../data/skills.json';
 
@@ -17,7 +17,9 @@ export default function Skills() {
             <div className="skillCards">
               <Stack direction="row" sx={{ flexWrap: 'wrap' }}>
                 {item.list.map((item2) => (
-                  <Chip label={item2.text} key={item2.text} variant="outlined" sx={{ mr: 1, mb: 1 }} />
+                  item2.link !== ''
+                    ? <Chip component="a" label={item2.text} key={item2.text} variant="outlined" sx={{ mr: 1, mb: 1 }} href={item2.link} target="_blank" style={{ cursor: 'pointer' }} />
+                    : <Chip label={item2.text} key={item2.text} variant="outlined" sx={{ mr: 1, mb: 1 }} />
                 ))}
               </Stack>
             </div>
