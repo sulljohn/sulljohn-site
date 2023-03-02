@@ -69,5 +69,5 @@
     "stylelint": "^14.16.1",
     "stylelint-config-standard-scss": "^6.1.0"
   },
-  "proxy": "http://localhost:3001"
+  "homepage": "./"
 }
