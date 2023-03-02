@@ -6,6 +6,7 @@
       "short_text": "Personal portfolio website.",
       "long_text": "Using various programming languages and frameworks listed, I created this personal portfolio website to showcase my skills.",
       "link": "https://sulljohn.com/",
+      "paper": "",
       "code": "https://github.com/sulljohn/sulljohn-site",
       "languages": [
         {
@@ -23,6 +24,7 @@
       "short_text": "Lexitrace adds secret hidden characters to text so that you can identify the origin of the message when it is distributed by others.",
       "long_text": "Lexitrace provides a mechanism to encode a paragraph of text without changing it visually by replacing hidden characters and using other means. A user can submit a letter or email message, and define how many unique recipients it will be sent to. The system will generate different versions of the message, each slightly different, so that if the message appears on social media or in the news press, it can be traced back to the person who leaked it to the public.",
       "link": "https://lexitrace.com/",
+      "paper": "",
       "code": "",
       "languages": [
         {
@@ -40,11 +42,51 @@
       ]
     },
     {
+      "title": "StrengthClip",
+      "image": "./StrengthClip.png",
+      "image_height": "100",
+      "short_text": "StrengthClip is a site for users to try free at-home workouts and track their progress for different exercises.",
+      "long_text": "StrengthClip is a site for users to try free at-home workouts and track their progress for different exercises. Users are able to mark exercises that they have finished done, so that they are able to constantly try new ones. Users are able to add and remove videos. Users can also like, comment on, and message other users to help motivate each other.",
+      "link": "https://lexitrace.com/",
+      "paper": "",
+      "code": "",
+      "languages": [
+        {
+          "name": "Ruby on Rails"
+        },
+        {
+          "name": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "NYC Crime ",
+      "image": "./NYC_Crime_RE.png",
+      "image_height": "100",
+      "short_text": "Using data on crimes, demographics, and geography, a predictive model was made to determine house prices by zip code in NYC and help potential home buyers.",
+      "long_text": "The project analyzed 10 years' data on crimes committed in New York City to assign a crime score to each neighborhood. Using this crime score and demographic data on these neighborhoods, a model was created to help potential house buyers make purchasing decisions. Based on the amount of crime and other demographics, a house price could be predicted for each zip code and used in the future based on future crime levels and demographic information.",
+      "link": "https://jcnoordsij.shinyapps.io/nyc_vis/",
+      "paper": "./NYC_Crime_RE_Analysis.pdf",
+      "code": "https://github.com/sulljohn/NYC_Crime_RE_Data_Analysis",
+      "languages": [
+        {
+          "name": "R"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "Jupyter Notebook"
+        }
+      ]
+    },
+    {
       "title": "Effects of Vulnerability Publications on Stock Returns\n",
       "image": "./1_NVD_Stocks.png",
       "short_text": "The National Vulnerability Database (NVD) keeps records of computer vulnerabilities since 1988. This study uses an event study method to test if abnormal stock returns occur around the publication of vulnerabilities in the NVD. The results show that stock returns are down a statistically significant -0.63% on average at 40 days after a vulnerability announcement. Using a portfolio strategy, this study shows that an investor could have earned a significant annual alpha (excess returns) of 13.45% per annum since 2002. These results suggest that vulnerability announcements have a gradual negative impact on stock returns.",
       "long_text": "The National Vulnerability Database (NVD) keeps records of computer vulnerabilities since 1988. This study uses an event study method to test if abnormal stock returns occur around the publication of vulnerabilities in the NVD. The results show that stock returns are down a statistically significant -0.63% on average at 40 days after a vulnerability announcement. Using a portfolio strategy, this study shows that an investor could have earned a significant annual alpha (excess returns) of 13.45% per annum since 2002. These results suggest that vulnerability announcements have a gradual negative impact on stock returns.",
       "link": "google.com",
+      "paper": "",
       "code": "github.com",
       "languages": [
         {
@@ -61,6 +103,7 @@
       "short_text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security. A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited. At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall. It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general.",
       "long_text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security. A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited. At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall. It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general.",
       "link": "",
+      "paper": "",
       "code": "",
       "languages": [
         {
@@ -77,6 +120,7 @@
       "short_text": "Want to learn some cool skills or get into a new hobby?  Want to expand your social circle and meet new friends?  PassOn connects us together by our mutually shared hobbies and interests, allowing people to meet, connect, teach, and learn from each other. On this app, users can input skills that they have and other skills that they would like to learn. Using this information, users can connect with each other to “pass on” those skills that they are passionate about.",
       "long_text": "Want to learn some cool skills or get into a new hobby?  Want to expand your social circle and meet new friends?  PassOn connects us together by our mutually shared hobbies and interests, allowing people to meet, connect, teach, and learn from each other. On this app, users can input skills that they have and other skills that they would like to learn. Using this information, users can connect with each other to “pass on” those skills that they are passionate about.",
       "link": "",
+      "paper": "",
       "code": "",
       "languages": [
         {
@@ -93,6 +137,7 @@
       "short_text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students can access remotely anytime and anywhere. This solution improves how quickly and efficiently machine tools are taught to students, and opens up the possibility of teaching more students the equipment. In addition, a code repository and documentation were included with the final product. In the future, this solution could be extended to include other machines and courses at Thayer. Students will be able to apply experience that they gain from this online teaching tool to other engineering projects.",
       "long_text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students can access remotely anytime and anywhere. This solution improves how quickly and efficiently machine tools are taught to students, and opens up the possibility of teaching more students the equipment. In addition, a code repository and documentation were included with the final product. In the future, this solution could be extended to include other machines and courses at Thayer. Students will be able to apply experience that they gain from this online teaching tool to other engineering projects.",
       "link": "",
+      "paper": "",
       "code": "",
       "languages": [
         {
@@ -109,6 +154,7 @@
       "short_text": "OneLace improves the traditional ice skate lacing system. Currently, children are unable to quickly and securely tie their ice skates because of their lack of strength and dexterity. This product is intended for children between the ages of five and ten who are learning how to skate and to play hockey. The consumers of this product would be the parents of these children. The current state of the art for ice skate lacing systems did not present an acceptable solution. OneLace, the final product, is a system that reduces the time it takes for children to securely fasten their skates, while maintaining the design of traditional skates that people like. (See picture for design prototype.)",
       "long_text": "OneLace improves the traditional ice skate lacing system. Currently, children are unable to quickly and securely tie their ice skates because of their lack of strength and dexterity. This product is intended for children between the ages of five and ten who are learning how to skate and to play hockey. The consumers of this product would be the parents of these children. The current state of the art for ice skate lacing systems did not present an acceptable solution. OneLace, the final product, is a system that reduces the time it takes for children to securely fasten their skates, while maintaining the design of traditional skates that people like. (See picture for design prototype.)",
       "link": "",
+      "paper": "",
       "code": "",
       "languages": [
         {
@@ -125,6 +171,7 @@
       "short_text": "This musical bridge applies structural theory, and combines it with the design and sounds of an instrument. The bridge features support from the tied arch suspensions and the trusses located underneath it. Using structural theory, the stresses on each section were analyzed. The chimes that are attached to the suspensions were calibrated to different frequencies, allowing a musician to play the different notes of a song. Thus, the appearance and functionality of the chimes were incorporated into the mechanical structure and design of the bridge.",
       "long_text": "This musical bridge applies structural theory, and combines it with the design and sounds of an instrument. The bridge features support from the tied arch suspensions and the trusses located underneath it. Using structural theory, the stresses on each section were analyzed. The chimes that are attached to the suspensions were calibrated to different frequencies, allowing a musician to play the different notes of a song. Thus, the appearance and functionality of the chimes were incorporated into the mechanical structure and design of the bridge.",
       "link": "",
+      "paper": "",
       "code": "",
       "languages": [
         {

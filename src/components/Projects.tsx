@@ -46,15 +46,8 @@ export default function Projects({ mode }: IProps) {
               projects.data.map((item, index) => (
                 <Grid item xs={12} sm={12} md={6} lg={6} key={item.title}>
                   <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }} data-aos="fade-up">
-                    {item.image !== ''
-                      ? (
-                        <CardMedia
-                        /* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */
-                          image={req(item.image)}
-                          sx={{ height: 260 }}
-                          title={`${item.title}`}
-                        />
-                      ) : ''}
+                    {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
+                    {item.image !== '' ? <img src={req(item.image)} alt={`${item.title}`} style={{ width: '100%' }} /> : ''}
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
                         {item.title}
@@ -74,6 +67,7 @@ export default function Projects({ mode }: IProps) {
                     </Stack>
                     <CardActions disableSpacing>
                       {item.link !== '' ? <Button size="small" href={item.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+                      {item.paper !== '' ? <Button size="small" href={item.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
                       {item.code !== '' ? <Button size="small" href={item.code} target="_blank" sx={{ mr: 0.5 }}>Code</Button> : ''}
                       <Button size="small" onClick={() => handleClickOpen(index)}>More Info</Button>
                     </CardActions>
@@ -92,7 +86,7 @@ export default function Projects({ mode }: IProps) {
           maxWidth="xs"
         >
           {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
-          {project.image !== '' ? <img src={req(project.image)} alt={`${project.title}`} /> : ''}
+          {project.image !== '' ? <img src={req(project.image)} alt={`${project.title}`} style={{ width: '100%' }} /> : ''}
           <DialogTitle sx={{ pb: 1 }}>{project.title}</DialogTitle>
           <DialogContent sx={{ pb: 0 }}>
             <DialogContentText id="alert-dialog-slide-description">
@@ -114,6 +108,7 @@ export default function Projects({ mode }: IProps) {
           >
             <div>
               {project.link !== '' ? <Button size="small" href={project.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+              {project.paper !== '' ? <Button size="small" href={project.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
               {project.code !== '' ? <Button size="small" href={project.code} target="_blank">Code</Button> : ''}
             </div>
             <div>
