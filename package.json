@@ -1,7 +1,11 @@
 {
   "name": "web",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.0",
+  "main": "src/index.tsx",
+  "repository": "git@github.com:sulljohn/sulljohn-site.git",
+  "author": "John Sullivan <js@sulljohn.com>",
+  "license": "MIT",
+  "homepage": "https://sulljohn.github.io/sulljohn-site/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -68,6 +72,5 @@
     "sass": "^1.57.1",
     "stylelint": "^14.16.1",
     "stylelint-config-standard-scss": "^6.1.0"
-  },
-  "homepage": "./"
+  }
 }
