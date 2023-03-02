@@ -18,6 +18,7 @@ import Info from './Info';
 import Artwork from './Artwork';
 import NavTabs from '../components/NavTabs';
 import Footer from '../components/Footer';
+import { useAnalytics } from '../ga/useAnalytics';
 
 interface IProps {
   mode: 'light' | 'dark' | 'system',
@@ -105,6 +106,8 @@ export default function App() {
     }),
     [mode],
   );
+
+  useAnalytics(); // Source: https://stackoverflow.com/a/73295380
 
   return (
     <ThemeProvider theme={theme}>
