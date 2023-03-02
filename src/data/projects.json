@@ -46,7 +46,7 @@
     },
     {
       "title": "Machine Tool Simulator",
-      "image": "./4_MTool_Sim.png",
+      "image": "./MTool_Sim.png",
       "short_text": "A virtual tool for users to experience and become comfortable with using tools in a machine shop, like the lathe, online before using the actual machinery.",
       "long_text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students can access remotely anytime and anywhere. This solution improves how quickly and efficiently machine tools are taught to students, and opens up the possibility of teaching more students the equipment. In addition, a code repository and documentation were included with the final product. In the future, this solution could be extended to include other machines and courses at Thayer. Students will be able to apply experience that they gain from this online teaching tool to other engineering projects.",
       "link": "https://machine-tool-simulator.github.io/Simulator-Web-Client/",
@@ -70,19 +70,16 @@
     },
     {
       "title": "PassOn",
-      "image": "./3_PassOn.jpg",
-      "short_text": "Short text",
+      "image": "./PassOn.jpg",
+      "short_text": "PassOn is a mobile application for users to connect and share skills that they are experienced in with each other.",
       "long_text": "Want to learn some cool skills or get into a new hobby?  Want to expand your social circle and meet new friends?  PassOn connects us together by our mutually shared hobbies and interests, allowing people to meet, connect, teach, and learn from each other. On this app, users can input skills that they have and other skills that they would like to learn. Using this information, users can connect with each other to “pass on” those skills that they are passionate about.",
-      "link": "",
+      "link": "./papers/PassOn.pdf",
       "paper": "",
       "presentation": "",
-      "code": "",
+      "code": "https://github.com/ziruihao/passon",
       "languages": [
         {
-          "name": "Ruby on Rails"
-        },
-        {
-          "name": "React"
+          "name": "React Native"
         }
       ]
     },
@@ -110,7 +107,7 @@
     },
     {
       "title": "SullJohn Personal Website",
-      "image": "",
+      "image": "./SullJohn.png",
       "short_text": "Personal portfolio website.",
       "long_text": "Using various programming languages and frameworks listed, I created this personal portfolio website to showcase my skills.",
       "link": "https://sulljohn.com/",
@@ -128,63 +125,63 @@
     },
     {
       "title": "Effects of Vulnerability Publications on Stock Returns",
-      "image": "./1_NVD_Stocks.png",
-      "short_text": "Short text",
+      "image": "./NVD_Stocks.png",
+      "short_text": "This paper does an event study analysis to measure the impact of vulnerability disclosures on stock returns. It finds statistically significant -0.63% returns on average for the stock at 40 days after a vulnerability disclosure.",
       "long_text": "The National Vulnerability Database (NVD) keeps records of computer vulnerabilities since 1988. This study uses an event study method to test if abnormal stock returns occur around the publication of vulnerabilities in the NVD. The results show that stock returns are down a statistically significant -0.63% on average at 40 days after a vulnerability announcement. Using a portfolio strategy, this study shows that an investor could have earned a significant annual alpha (excess returns) of 13.45% per annum since 2002. These results suggest that vulnerability announcements have a gradual negative impact on stock returns.",
-      "link": "google.com",
-      "paper": "",
+      "link": "",
+      "paper": "./papers/John_Sullivan_-_Effects_of_Vulnerability_Publications_on_Stock_Returns_(2018).pdf",
       "presentation": "",
-      "code": "github.com",
+      "code": "",
       "languages": [
         {
-          "name": "Ruby on Rails"
+          "name": "Stata"
         },
         {
-          "name": "React"
+          "name": "Matlab"
         }
       ]
     },
     {
       "title": "Vulnerability survival analysis: a novel approach to vulnerability management",
-      "image": "",
-      "short_text": "",
-      "long_text": "",
-      "link": "google.com",
-      "paper": "",
+      "image": "./Vulnerability_Survival.png",
+      "short_text": "The paper applies the cox proportional hazards regression model, which was originally used in medical analysis, to analyze the spread and remediation of vulnerabilities in an IT setting.",
+      "long_text": "Computer security vulnerabilities span across large, enterprise networks and have to be mitigated by security engineers on a routine basis. Presently, security engineers will assess their “risk posture” through quantifying the number of vulnerabilities with a high Common Vulnerability Severity Score (CVSS). Yet, little to no attention is given to the length of time by which vulnerabilities persist and survive on the network. In this paper, we review a novel approach to quantifying the length of time a vulnerability persists on the network, its time-to-death, and predictors of lower vulnerability survival rates. Our contribution is unique in that we apply the cox proportional hazards regression model to real data from an operational IT environment. This paper provides a mathematical overview of the theory behind survival analysis methods, a description of our vulnerability data, and an interpretation of the results.",
+      "link": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10184/101840H/Vulnerability-survival-analysis-a-novel-approach-to-vulnerability-management/10.1117/12.2266378.short?SSO=1",
+      "paper": "./papers/Katheryn_Farris,_John_Sullivan,_George_Cybenko_-_\"Vulnerability_survival_analysis-_a_novel_approach_to_vulnerability_management\".pdf",
       "presentation": "",
-      "code": "github.com",
+      "code": "",
       "languages": [
         {
-          "name": "Ruby on Rails"
+          "name": "Matlab"
         }
       ]
     },
     {
       "title": "National Vulnerability Database Trend Analysis",
-      "image": "./2_NVD_Trends.png",
-      "short_text": "Short text",
+      "image": "./NVD_Trends.png",
+      "short_text": "This paper uses computer vulnerability and exploit data to perform an analysis using LDA (Latent Dirichlet Allocation), to classify vulnerabilities that are at a high risk to be exploited and possibly already have to prioritize remediation.",
       "long_text": "This thesis contributes to the understanding and value of the NVD, with the goal of improving computer security. A model is presented that uses topics in the NVD to classify if a vulnerability has been exploited. At its peak performance, this model predicts whether a vulnerability has been exploited 85-90% of the time and can be adjusted to predict only true positives with 50-60% recall. It is possible that the methods of analysis set forth in this thesis can be used to prioritize the remediation of vulnerabilities before they are exploited and improve cybersecurity in general.",
       "link": "",
-      "paper": "",
-      "presentation": "",
+      "paper": "./John_Sullivan_-_NVD_Trend_Analysis_(2018).pdf",
+      "presentation": "./John_Sullivan_-_NVD_Trend_Analysis_(2018)_Presentation.pdf",
       "code": "",
       "languages": [
         {
-          "name": "Ruby on Rails"
+          "name": "Matlab"
         },
         {
-          "name": "React"
+          "name": "XQuery"
         }
       ]
     },
     {
       "title": "OneLace",
-      "image": "./5_OneLace.png",
-      "short_text": "Short text",
+      "image": "./OneLace.png",
+      "short_text": "An innovative ice skate lacing design to address the tedious and difficult process of tying ice skates, particularly for beginners / children. The new design may also help to reduce injuries with better fastened skates.",
       "long_text": "OneLace improves the traditional ice skate lacing system. Currently, children are unable to quickly and securely tie their ice skates because of their lack of strength and dexterity. This product is intended for children between the ages of five and ten who are learning how to skate and to play hockey. The consumers of this product would be the parents of these children. The current state of the art for ice skate lacing systems did not present an acceptable solution. OneLace, the final product, is a system that reduces the time it takes for children to securely fasten their skates, while maintaining the design of traditional skates that people like. (See picture for design prototype.)",
       "link": "",
-      "paper": "",
-      "presentation": "",
+      "paper": "./papers/OneLace_Report.pdf",
+      "presentation": "./papers/OneLace_Presentation.pdf",
       "code": "",
       "languages": [
         {
@@ -194,11 +191,11 @@
     },
     {
       "title": "Chime Bridge",
-      "image": "./6_Bridge.jpg",
-      "short_text": "Short text",
+      "image": "./Bridge.jpg",
+      "short_text": "This musical bridge combines",
       "long_text": "This musical bridge applies structural theory, and combines it with the design and sounds of an instrument. The bridge features support from the tied arch suspensions and the trusses located underneath it. Using structural theory, the stresses on each section were analyzed. The chimes that are attached to the suspensions were calibrated to different frequencies, allowing a musician to play the different notes of a song. Thus, the appearance and functionality of the chimes were incorporated into the mechanical structure and design of the bridge.",
       "link": "",
-      "paper": "",
+      "paper": "./papers/Chime_Bridge_Calculations_and_Reflection.pdf",
       "presentation": "",
       "code": "",
       "languages": [
