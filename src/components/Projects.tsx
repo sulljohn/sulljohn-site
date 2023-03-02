@@ -44,7 +44,7 @@ export default function Projects({ mode }: IProps) {
           <Grid container spacing={2}>
             {
               projects.data.map((item, index) => (
-                <Grid item xs={12} sm={12} md={6} lg={6} key={item.title}>
+                <Grid item xs={12} sm={6} md={4} key={item.title}>
                   <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }} data-aos="fade-up">
                     {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
                     {item.image !== '' ? <img src={req(item.image)} alt={`${item.title}`} style={{ width: '100%' }} /> : ''}
@@ -56,20 +56,21 @@ export default function Projects({ mode }: IProps) {
                         {item.short_text}
                       </Typography>
                     </CardContent>
-                    <Stack direction="row" spacing={1} sx={{ px: 2 }}>
+                    <Stack direction="row" sx={{ px: 2, flexWrap: 'wrap' }}>
                       {
                         // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
                         item.languages.map((language) => (
                           // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
-                          <Chip label={language.name} key={language.name} variant="outlined" size="small" />
+                          <Chip label={language.name} key={language.name} variant="outlined" size="small" sx={{ mr: 0.5, mb: 0.5 }} />
                         ))
                       }
                     </Stack>
                     <CardActions disableSpacing>
                       {item.link !== '' ? <Button size="small" href={item.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
                       {item.paper !== '' ? <Button size="small" href={item.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
+                      {item.presentation !== '' ? <Button size="small" href={item.presentation} target="_blank" sx={{ mr: 0.5 }}>Deck</Button> : ''}
                       {item.code !== '' ? <Button size="small" href={item.code} target="_blank" sx={{ mr: 0.5 }}>Code</Button> : ''}
-                      <Button size="small" onClick={() => handleClickOpen(index)}>More Info</Button>
+                      <Button size="small" onClick={() => handleClickOpen(index)}>+ Info</Button>
                     </CardActions>
                   </Card>
                 </Grid>
@@ -83,22 +84,22 @@ export default function Projects({ mode }: IProps) {
           keepMounted
           onClose={handleClose}
           aria-describedby="alert-dialog-slide-description"
-          maxWidth="xs"
+          maxWidth="sm"
         >
           {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
           {project.image !== '' ? <img src={req(project.image)} alt={`${project.title}`} style={{ width: '100%' }} /> : ''}
           <DialogTitle sx={{ pb: 1 }}>{project.title}</DialogTitle>
           <DialogContent sx={{ pb: 0 }}>
-            <DialogContentText id="alert-dialog-slide-description">
+            <DialogContentText id="alert-dialog-slide-description" style={{ overflow: 'scroll', fontSize: '.9rem' }}>
               {project.long_text}
             </DialogContentText>
           </DialogContent>
-          <Stack direction="row" spacing={1} sx={{ mx: 3, mt: 2 }}>
+          <Stack direction="row" spacing={1} sx={{ mx: 3, mt: 2, flexWrap: 'wrap' }}>
             {
               // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
               project.languages.map((language) => (
                 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
-                <Chip label={language.name} key={language.name} variant="outlined" size="small" />
+                <Chip label={language.name} key={language.name} variant="outlined" size="small" sx={{ mr: 0.5, mb: 0.5 }} />
               ))
             }
           </Stack>
@@ -109,6 +110,7 @@ export default function Projects({ mode }: IProps) {
             <div>
               {project.link !== '' ? <Button size="small" href={project.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
               {project.paper !== '' ? <Button size="small" href={project.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
+              {project.presentation !== '' ? <Button size="small" href={project.presentation} target="_blank" sx={{ mr: 0.5 }}>Deck</Button> : ''}
               {project.code !== '' ? <Button size="small" href={project.code} target="_blank">Code</Button> : ''}
             </div>
             <div>
