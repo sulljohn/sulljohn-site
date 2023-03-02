@@ -5,7 +5,7 @@
   "repository": "git@github.com:sulljohn/sulljohn-site.git",
   "author": "John Sullivan <js@sulljohn.com>",
   "license": "MIT",
-  "homepage": "https://sulljohn.github.io/sulljohn-site/",
+  "homepage": "./",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
