@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Typography, Card, CardContent, CardHeader, Grid, CardActions, Button, CardMedia,
+  Typography, Card, CardContent, CardHeader, Grid, CardActions, Button,
   Dialog, DialogTitle, DialogContent, DialogContentText, Slide, Chip, Stack, Box,
 } from '@mui/material';
 import { TransitionProps } from '@mui/material/transitions';

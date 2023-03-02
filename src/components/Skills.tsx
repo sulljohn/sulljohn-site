@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Typography, Card, CardContent, CardHeader, Stack, Chip, Link,
+  Typography, Card, CardContent, CardHeader, Stack, Chip,
 } from '@mui/material';
 import skills from '../data/skills.json';
 
