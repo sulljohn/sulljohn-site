@@ -22,10 +22,11 @@ import { useAnalytics } from '../ga/useAnalytics';
 
 interface IProps {
   mode: 'light' | 'dark' | 'system',
-  setMode: Dispatch<SetStateAction<'light' | 'dark' | 'system'>>
+  setMode: Dispatch<SetStateAction<'light' | 'dark' | 'system'>>,
+  finalMode: 'light' | 'dark',
 }
 
-function MyApp({ mode, setMode }: IProps) {
+function MyApp({ mode, setMode, finalMode }: IProps) {
   useEffect(() => {
     // Initialize Animate on Scroll library
     AOS.init();
@@ -73,11 +74,11 @@ function MyApp({ mode, setMode }: IProps) {
       </Box>
       <NavTabs />
       <Routes>
-        <Route path="/" element={<Info mode={mode} />} />
+        <Route path="/" element={<Info mode={finalMode} />} />
         <Route path="/artwork" element={<Artwork />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Footer mode={mode} />
+      <Footer mode={finalMode} />
     </Container>
   );
 }
@@ -112,7 +113,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <MyApp mode={mode} setMode={setMode} />
+      <MyApp mode={mode} setMode={setMode} finalMode={finalMode} />
     </ThemeProvider>
   );
 }

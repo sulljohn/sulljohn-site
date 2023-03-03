@@ -2,6 +2,7 @@
   "data": [
     {
       "name": "Advanced",
+      "note": "",
       "list": [
         {
           "text": "Web Development",
@@ -49,7 +50,7 @@
           "link": ""
         },
         {
-          "text": "VHDL",
+          "text": "Docker",
           "link": ""
         },
         {
@@ -60,6 +61,7 @@
     },
     {
       "name": "Basic",
+      "note": "",
       "list": [
         {
           "text": "Python",
@@ -77,6 +79,7 @@
     },
     {
       "name": "Other",
+      "note": "",
       "list": [
         {
           "text": "Digital Design",
@@ -105,7 +108,8 @@
       ]
     },
     {
-      "name": "Certifications (clickable)",
+      "name": "Certificates",
+      "note": "(Click on any to see certificate)",
       "list": [
         {
           "text": "Emergency Medical Technician",
@@ -118,7 +122,8 @@
       ]
     },
     {
-      "name": "Courses (clickable)",
+      "name": "Courses",
+      "note": "(Click on any to see certificate)",
       "list": [
         {
           "text": "Machine Learning",

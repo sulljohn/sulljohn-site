@@ -66,7 +66,7 @@ export default function Projects({ mode }: IProps) {
                       }
                     </Stack>
                     <CardActions disableSpacing>
-                      {item.link !== '' ? <Button size="small" href={item.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+                      {item.site !== '' ? <Button size="small" href={item.site} target="_blank" sx={{ mr: 0.5 }}>Site</Button> : ''}
                       {item.paper !== '' ? <Button size="small" href={item.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
                       {item.presentation !== '' ? <Button size="small" href={item.presentation} target="_blank" sx={{ mr: 0.5 }}>Deck</Button> : ''}
                       {item.code !== '' ? <Button size="small" href={item.code} target="_blank" sx={{ mr: 0.5 }}>Code</Button> : ''}
@@ -108,7 +108,7 @@ export default function Projects({ mode }: IProps) {
           }}
           >
             <div>
-              {project.link !== '' ? <Button size="small" href={project.link} target="_blank" sx={{ mr: 0.5 }}>Link</Button> : ''}
+              {project.site !== '' ? <Button size="small" href={project.site} target="_blank" sx={{ mr: 0.5 }}>Site</Button> : ''}
               {project.paper !== '' ? <Button size="small" href={project.paper} target="_blank" sx={{ mr: 0.5 }}>Paper</Button> : ''}
               {project.presentation !== '' ? <Button size="small" href={project.presentation} target="_blank" sx={{ mr: 0.5 }}>Deck</Button> : ''}
               {project.code !== '' ? <Button size="small" href={project.code} target="_blank">Code</Button> : ''}

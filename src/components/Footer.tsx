@@ -10,7 +10,7 @@ import imgMail from '../res/icons/mail.png';
 // import imgPhone from '../res/icons/phone.png';
 
 interface IProps {
-  mode: 'light' | 'dark' | 'system'
+  mode: 'light' | 'dark'
 }
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
