@@ -4,7 +4,7 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
 interface IProps {
-  mode: 'light' | 'dark' | 'system'
+  mode: 'light' | 'dark'
 }
 
 export default function Info({ mode }: IProps) {

@@ -36,6 +36,8 @@ export default function Projects({ mode }: IProps) {
     setOpen(false);
   };
 
+  console.log(mode);
+
   return (
     <Card sx={{ my: 2 }} data-aos="fade-up">
       <CardHeader title="Personal Projects" sx={{ pb: 0 }} />
