@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.375bcf3b.css",
-    "main.js": "./static/js/main.dc59cce3.js",
+    "main.js": "./static/js/main.1afa26f2.js",
     "static/js/787.d1d4a2c2.chunk.js": "./static/js/787.d1d4a2c2.chunk.js",
     "static/media/NYC_Crime_RE.png": "./static/media/NYC_Crime_RE.ca5c59fedfdb61d93c38.png",
     "static/media/MTool_Sim.png": "./static/media/MTool_Sim.6487fa328d51dfd1a5b0.png",
@@ -91,11 +91,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "./static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "./index.html",
     "main.375bcf3b.css.map": "./static/css/main.375bcf3b.css.map",
-    "main.dc59cce3.js.map": "./static/js/main.dc59cce3.js.map",
+    "main.1afa26f2.js.map": "./static/js/main.1afa26f2.js.map",
     "787.d1d4a2c2.chunk.js.map": "./static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.375bcf3b.css",
-    "static/js/main.dc59cce3.js"
+    "static/js/main.1afa26f2.js"
   ]
 }
