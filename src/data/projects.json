@@ -64,6 +64,12 @@
           "name": "JavaScript"
         },
         {
+          "name": "TypeScript"
+        },
+        {
+          "name": "Node"
+        },
+        {
           "name": "CSS"
         }
       ]
