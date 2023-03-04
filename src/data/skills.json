@@ -106,7 +106,7 @@
       "note": "",
       "list": [
         {
-          "text": "Digital Design",
+          "text": "Digital Circuit Design",
           "link": ""
         },
         {
@@ -115,6 +115,14 @@
         },
         {
           "text": "Assembly Language",
+          "link": ""
+        },
+        {
+          "text": "Graphic Design",
+          "link": ""
+        },
+        {
+          "text": "UI/UX Design",
           "link": ""
         },
         {
