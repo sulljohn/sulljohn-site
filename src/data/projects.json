@@ -47,7 +47,7 @@
     {
       "title": "Machine Tool Simulator",
       "image": "./MTool_Sim.png",
-      "short_text": "A virtual tool for users to experience and become comfortable with using tools in a machine shop online, like the lathe, before using the actual machinery.",
+      "short_text": "A virtual tool for students to experience and become comfortable with using tools in a machine shop online, like the lathe, before using the actual machinery.",
       "long_text": "This online platform is a digital learning solution to supplement a machine shop’s training curriculum that students can access remotely anytime and anywhere. This solution improves how quickly and efficiently machine tools are taught to students, and opens up the possibility of teaching more students how to use the equipment. In the future, this solution could be extended to include other machines and courses. Students will be able to apply experience that they gain from this online teaching tool to their engineering projects. The code is open source.",
       "site": "https://machine-tool-simulator.github.io/Simulator-Web-Client/",
       "paper": "./papers/Machine_Tool_Simulator_Report.pdf",
