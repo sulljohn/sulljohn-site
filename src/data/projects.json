@@ -147,7 +147,7 @@
       "short_text": "The paper applies the cox proportional hazards regression model, which was originally used in medical analyses, to analyze the spread and remediation of vulnerabilities in an IT setting.",
       "long_text": "Computer security vulnerabilities span across large, enterprise networks and have to be mitigated by security engineers on a routine basis. Presently, security engineers will assess their “risk posture” through quantifying the number of vulnerabilities with a high Common Vulnerability Severity Score (CVSS). Yet, little to no attention is given to the length of time by which vulnerabilities persist and survive on the network. In this paper, we review a novel approach to quantifying the length of time a vulnerability persists on the network, its time-to-death, and predictors of lower vulnerability survival rates. Our contribution is unique in that we apply the cox proportional hazards regression model to real data from an operational IT environment. This paper provides a mathematical overview of the theory behind survival analysis methods, a description of our vulnerability data, and an interpretation of the results.",
       "site": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10184/101840H/Vulnerability-survival-analysis-a-novel-approach-to-vulnerability-management/10.1117/12.2266378.short?SSO=1",
-      "paper": "./papers/Katheryn_Farris,_John_Sullivan,_George_Cybenko_-_\"Vulnerability_survival_analysis-_a_novel_approach_to_vulnerability_management\".pdf",
+      "paper": "./papers/Katheryn_Farris,_John_Sullivan,_George_Cybenko_-_Vulnerability_survival_analysis-_a_novel_approach_to_vulnerability_management.pdf",
       "presentation": "",
       "code": "",
       "languages": [
