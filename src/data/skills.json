@@ -37,6 +37,10 @@
           "link": ""
         },
         {
+          "text": "Git",
+          "link": ""
+        },
+        {
           "text": "SQL",
           "link": ""
         },
@@ -88,7 +92,19 @@
           "link": ""
         },
         {
+          "text": "Swift",
+          "link": ""
+        },
+        {
           "text": "Scala",
+          "link": ""
+        },
+        {
+          "text": "Stata",
+          "link": ""
+        },
+        {
+          "text": "React Native",
           "link": ""
         },
         {
@@ -98,6 +114,10 @@
         {
           "text": "Microsoft SQL Server",
           "link": ""
+        },
+        {
+          "text": "Tableau",
+          "link": ""
         }
       ]
     },
@@ -105,6 +125,10 @@
       "name": "Other",
       "note": "",
       "list": [
+        {
+          "text": "Data Analysis",
+          "link": ""
+        },
         {
           "text": "Digital Circuit Design",
           "link": ""
@@ -135,6 +159,18 @@
         },
         {
           "text": "Adobe InDesign",
+          "link": ""
+        },
+        {
+          "text": "Microsoft Excel",
+          "link": ""
+        },
+        {
+          "text": "Microsoft PowerPoint",
+          "link": ""
+        },
+        {
+          "text": "Microsoft Word",
           "link": ""
         }
       ]
