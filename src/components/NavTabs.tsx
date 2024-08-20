@@ -20,7 +20,7 @@ function LinkTab(props: LinkTabProps) {
       component="a"
       onClick={(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         event.preventDefault();
-      }} // eslint-disable-next-line react/jsx-props-no-spreading
+      }}
       {...props}
     />
   );
@@ -36,7 +36,6 @@ export default function NavTabs() {
   const useCurrentPath = () => {
     const location = useLocation();
     const [{ route }] = matchRoutes(routes, location) ?? [];
-
     return route.path;
   };
 
@@ -47,7 +46,6 @@ export default function NavTabs() {
       return -1;
     }
   };
-
   return (
     <Box sx={{ width: '100%' }}>
       <Tabs value={currentRouteIndex()} onChange={handleChange} aria-label="nav tabs example" centered>
