@@ -22,15 +22,14 @@ export default tseslint.config(
             'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
             'no-multi-spaces': 'error',
             'no-empty': ['error', { allowEmptyCatch: true }],
-            'react/jsx-curly-spacing': ['error', { when: 'never', children: true }],
-            'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'never', afterOpening: 'never', beforeClosing: 'never' }],
-            'react/jsx-indent': ['error', 2],
-            'react/jsx-indent-props': ['error', 2],
+            'no-extra-parens': ['error', 'all', { enforceForJSX: true }],
+            'no-useless-concat': 'error',
             'padding-line-between-statements': [
                 'error',
                 { blankLine: 'never', prev: '*', next: 'return' },
                 { blankLine: 'never', prev: '*', next: 'expression' }
-            ]
+            ],
+            'no-unexpected-multiline': 'error'
         }
     }
 );
