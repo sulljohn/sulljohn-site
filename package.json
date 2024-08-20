@@ -38,9 +38,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/* && stylelint 'src/**/*.{css,scss}'",
-    "lint-fix": "eslint ./src/* --fix && stylelint 'src/**/*.{css,scss}' --fix",
-    "lint-cicd": "eslint ./src/* -f node_modules/eslint-html-reporter/reporter.js -o eslint/eslint.html && stylelint 'src/**/*.{css,scss}' -o stylelint/stylelint.txt",
+    "lint": "eslint src/ && stylelint 'src/**/*.{css,scss}'",
+    "lint-fix": "eslint src/ --fix && stylelint 'src/**/*.{css,scss}' --fix",
+    "lint-cicd": "eslint src/ -f node_modules/eslint-html-reporter/reporter.js -o eslint/eslint.html && stylelint 'src/**/*.{css,scss}' -o stylelint/stylelint.txt",
     "clean": "rm -rf build",
     "deploy": "yarn clean && yarn build && netlify deploy --dir=build",
     "deploy-prod": "yarn clean && yarn build && netlify deploy --prod --dir=build"
