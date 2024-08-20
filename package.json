@@ -64,15 +64,13 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.1.0",
-    "@typescript-eslint/parser": "^8.1.0",
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
     "eslint": "^9.9.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-html-reporter": "^0.7.4",
-    "eslint-plugin-import": "^2.29.1",
     "sass": "^1.77.8",
     "stylelint": "^16.8.2",
-    "stylelint-config-standard-scss": "^13.1.0"
+    "stylelint-config-standard-scss": "^13.1.0",
+    "typescript-eslint": "^8.2.0"
   }
 }
