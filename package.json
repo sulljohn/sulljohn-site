@@ -45,12 +45,6 @@
     "deploy": "yarn clean && yarn build && netlify deploy --dir=build",
     "deploy-prod": "yarn clean && yarn build && netlify deploy --prod --dir=build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
