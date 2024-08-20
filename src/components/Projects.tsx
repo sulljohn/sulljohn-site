@@ -15,7 +15,6 @@ const Transition = React.forwardRef((
     children: React.ReactElement<any, any>;
   },
   ref: React.Ref<unknown>,
-  // eslint-disable-next-line react/jsx-props-no-spreading
 ) => <Slide direction="up" ref={ref} {...props} />);
 
 interface IProps {
@@ -35,7 +34,6 @@ export default function Projects({ mode }: IProps) {
   const handleClose = () => {
     setOpen(false);
   };
-
   return (
     <Card sx={{ my: 2 }} data-aos="fade-up">
       <CardHeader title="Personal Projects" sx={{ pb: 0 }} />
@@ -46,7 +44,7 @@ export default function Projects({ mode }: IProps) {
               projects.data.map((item, index) => (
                 <Grid item xs={12} sm={6} md={4} key={item.title}>
                   <Card sx={{ my: 2, backgroundColor: mode === 'light' ? '#fcfcfb' : '#1c1c1c' }} data-aos="fade-up">
-                    {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
+                    { }
                     {item.image !== '' ? <img src={req(item.image)} alt={`${item.title}`} style={{ width: '100%' }} /> : ''}
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
@@ -58,9 +56,9 @@ export default function Projects({ mode }: IProps) {
                     </CardContent>
                     <Stack direction="row" sx={{ px: 2, flexWrap: 'wrap' }}>
                       {
-                        // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+
                         item.languages.map((language) => (
-                          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
+
                           <Chip label={language.name} key={language.name} variant="outlined" size="small" sx={{ mr: 0.5, mb: 0.5 }} />
                         ))
                       }
@@ -86,7 +84,7 @@ export default function Projects({ mode }: IProps) {
           aria-describedby="alert-dialog-slide-description"
           maxWidth="sm"
         >
-          {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-argument */}
+          { }
           {project.image !== '' ? <img src={req(project.image)} alt={`${project.title}`} style={{ width: '100%' }} /> : ''}
           <DialogTitle sx={{ pb: 1 }}>{project.title}</DialogTitle>
           <DialogContent sx={{ pb: 0 }}>
@@ -96,9 +94,9 @@ export default function Projects({ mode }: IProps) {
           </DialogContent>
           <Stack direction="row" spacing={1} sx={{ mx: 3, mt: 2, flexWrap: 'wrap' }}>
             {
-              // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-member-access
+
               project.languages.map((language) => (
-                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment,@typescript-eslint/no-unsafe-member-access
+
                 <Chip label={language.name} key={language.name} variant="outlined" size="small" sx={{ mr: 0.5, mb: 0.5 }} />
               ))
             }

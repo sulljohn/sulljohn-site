@@ -27,14 +27,13 @@ const request = async <Data extends Record<string, any>>(
       throw new Error(response.statusText);
     }
 
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const data = await response.json();
     return {
       ok: true,
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+
       data,
     };
-  } catch (e) {
+  } catch {
     return {
       ok: false,
       data: undefined,

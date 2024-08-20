@@ -31,7 +31,6 @@ function MyApp({ mode, setMode, finalMode }: IProps) {
     // Initialize Animate on Scroll library
     AOS.init();
   }, []);
-
   useEffect(() => {
     // Handling AOS refresh effect on state
     AOS.refresh();
@@ -41,7 +40,6 @@ function MyApp({ mode, setMode, finalMode }: IProps) {
     setMode(paletteMode);
     localStorage.setItem('mui-mode', paletteMode);
   };
-
   return (
     <Container maxWidth="lg" sx={{ p: 2 }}>
       <Box
@@ -94,7 +92,7 @@ export default function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const [mode, setMode] = React.useState<'light' | 'dark' | 'system'>(getStoredColor());
 
-  const finalMode = mode === 'system' ? (prefersDarkMode ? 'dark' : 'light') : mode; // eslint-disable-line no-nested-ternary
+  const finalMode = mode === 'system' ? (prefersDarkMode ? 'dark' : 'light') : mode;
 
   const theme = React.useMemo(
     () => createTheme({
@@ -107,9 +105,7 @@ export default function App() {
     }),
     [mode],
   );
-
   useAnalytics(); // Source: https://stackoverflow.com/a/73295380
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

@@ -13,7 +13,6 @@ interface IProps {
   mode: 'light' | 'dark'
 }
 
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 function Footer({ mode }: IProps) {
   return (
     <div className="footer" data-aos="fade-up">

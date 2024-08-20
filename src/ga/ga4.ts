@@ -1,4 +1,3 @@
-/* eslint-disable */
 // Source: https://stackoverflow.com/a/73295380
 import ga4 from 'react-ga4';
 
