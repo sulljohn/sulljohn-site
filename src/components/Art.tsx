@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Card, CardContent, CardHeader, Typography,
 } from '@mui/material';
@@ -7,15 +7,8 @@ import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import artwork from '../data/artwork.json';
 
-// Import images
-const req = require.context('../res/artwork/', true, /\.(jpe?g|png|gif|svg)$/);
-// Update object with the proper location for the image; it's static so only needs to be run once
-artwork.data.forEach((elem: { art: { src: string; thumbnail_orig: string; image: string; src_orig: string; }[] }) => {
-  elem.art.forEach((elem2) => {
-    elem2.src = req(elem2.thumbnail_orig) as string;
-    elem2.image = req(elem2.src_orig) as string;
-  });
-});
+// Use import.meta.globeager to dynamically import images from subdirectories
+const images = import.meta.globEager('../res/artwork/**/*.{jpg,jpeg,png,gif,svg}');
 
 interface ArtworkItem {
     src_orig: string;
@@ -41,6 +34,22 @@ interface Slide {
 export default function Art() {
   const [index, setIndex] = useState<number>(-1);
   const [slides, setSlides] = useState<Slide[]>([]);
+  useEffect(() => {
+    // Function to resolve the correct image paths based on the relative paths in the artwork data
+    const resolveImagePaths = () => {
+      artwork.data.forEach((section: ArtworkData) => {
+        section.art.forEach((artItem) => {
+          // Resolve the paths based on the artwork.json data
+          const thumbnailPath = `../res/artwork${artItem.thumbnail_orig.slice(1)}`;
+          const imagePath = `../res/artwork${artItem.src_orig.slice(1)}`;
+          // Find the image from the globbed files
+          artItem.src = images[thumbnailPath]?.default || '';
+          artItem.image = images[imagePath]?.default || '';
+        });
+      });
+    };
+    resolveImagePaths();
+  }, []);
 
   const handleClick = (clickedIndex: number, sectionArt: ArtworkItem[]) => {
     const mappedSlides = sectionArt.map(({ image }) => ({

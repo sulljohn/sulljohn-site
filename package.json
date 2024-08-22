@@ -28,22 +28,22 @@
     "react-ga4": "^2.1.0",
     "react-grid-gallery": "1.0.1",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1",
     "typescript": "^5.5.4",
     "web-vitals": "^4.2.3",
-    "yet-another-react-lightbox": "^3.21.4"
+    "yet-another-react-lightbox": "^3.21.4",
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "test": "vitest",
     "lint": "eslint src/ && stylelint 'src/**/*.{css,scss}'",
     "lint-fix": "eslint src/ --fix && stylelint 'src/**/*.{css,scss}' --fix",
     "lint-cicd": "eslint src/ -f node_modules/eslint-html-reporter/reporter.js -o eslint/eslint.html && stylelint 'src/**/*.{css,scss}' -o stylelint/stylelint.txt",
-    "clean": "rm -rf build",
-    "deploy": "yarn clean && yarn build && netlify deploy --dir=build",
-    "deploy-prod": "yarn clean && yarn build && netlify deploy --prod --dir=build"
+    "clean": "rm -rf dist",
+    "deploy": "yarn clean && yarn build && netlify deploy --dir=dist",
+    "deploy-prod": "yarn clean && yarn build && netlify deploy --prod --dir=dist"
   },
   "browserslist": {
     "production": [
