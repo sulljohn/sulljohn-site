@@ -6,7 +6,7 @@ import {
 import { TransitionProps } from '@mui/material/transitions';
 import projects from '../data/projects.json';
 
-const images = import.meta.globEager('../res/projects/*.{jpg,jpeg,png,gif,svg}');
+const images = import.meta.glob('../res/projects/*.{jpg,jpeg,png,gif,svg}', { eager: true });
 
 // Source: https://mui.com/material-ui/react-dialog/#transitions
 const Transition = React.forwardRef((
