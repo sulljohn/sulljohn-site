@@ -8,7 +8,7 @@ import 'yet-another-react-lightbox/styles.css';
 import artwork from '../data/artwork.json';
 
 // Use import.meta.globeager to dynamically import images from subdirectories
-const images = import.meta.globEager('../res/artwork/**/*.{jpg,jpeg,png,gif,svg}');
+const images = import.meta.glob('../res/artwork/**/*.{jpg,jpeg,png,gif,svg}', { eager: true });
 
 interface ArtworkItem {
     src_orig: string;
