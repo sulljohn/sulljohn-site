@@ -27,7 +27,8 @@ export default tseslint.config(
         { blankLine: 'never', prev: '*', next: 'return' },
         { blankLine: 'never', prev: '*', next: 'expression' }
       ],
-      'no-unexpected-multiline': 'error'
+      'no-unexpected-multiline': 'error',
+      'max-len': ['error', { code: 200 }]
     }
   }
 );
