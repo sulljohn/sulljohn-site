@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     port: 3001
   },
+  publicDir: 'public',
   build: {
     outDir: '../dist', // Output the build to the root-level dist directory
     rollupOptions: {
