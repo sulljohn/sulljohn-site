@@ -1,15 +1,31 @@
 {
   "data": [
     {
-      "name": "Advanced",
+      "name": "Coding - Advanced",
       "note": "",
       "list": [
         {
-          "text": "Web Development",
+          "text": "C++",
+          "link": ""
+        },
+        {
+          "text": "C#",
+          "link": ""
+        },
+        {
+          "text": "ASP.NET",
           "link": ""
         },
         {
           "text": "Ruby on Rails",
+          "link": ""
+        },
+        {
+          "text": "Java",
+          "link": ""
+        },
+        {
+          "text": "SQL",
           "link": ""
         },
         {
@@ -25,112 +41,58 @@
           "link": ""
         },
         {
-          "text": "TypeScript",
-          "link": ""
-        },
-        {
-          "text": "Node",
-          "link": ""
-        },
-        {
           "text": "CSS",
           "link": ""
         },
         {
           "text": "Git",
           "link": ""
-        },
-        {
-          "text": "SQL",
-          "link": ""
-        },
-        {
-          "text": "MySQL",
-          "link": ""
-        },
-        {
-          "text": "PostgreSQL",
-          "link": ""
-        },
-        {
-          "text": "Java",
-          "link": ""
         }
       ]
     },
     {
-      "name": "Intermediate",
-      "list": [
-        {
-          "text": "C",
-          "link": ""
-        },
-        {
-          "text": "C#",
-          "link": ""
-        },
-        {
-          "text": "Docker",
-          "link": ""
-        },
-        {
-          "text": "Matlab",
-          "link": ""
-        }
-      ]
-    },
-    {
-      "name": "Basic",
-      "note": "",
+      "name": "Coding - Intermediate",
       "list": [
         {
           "text": "Python",
           "link": ""
         },
         {
-          "text": "R",
+          "text": "C",
           "link": ""
         },
         {
-          "text": "Swift",
-          "link": ""
-        },
-        {
-          "text": "Scala",
-          "link": ""
-        },
-        {
-          "text": "Stata",
-          "link": ""
-        },
-        {
-          "text": "React Native",
-          "link": ""
-        },
-        {
-          "text": "ASP.NET",
-          "link": ""
-        },
-        {
-          "text": "Microsoft SQL Server",
-          "link": ""
-        },
-        {
-          "text": "Tableau",
+          "text": "Docker",
           "link": ""
         }
       ]
     },
     {
-      "name": "Other",
+      "name": "Technical Concentrations",
       "note": "",
       "list": [
         {
-          "text": "Data Analysis",
+          "text": "Distributed Systems",
           "link": ""
         },
         {
-          "text": "Digital Circuit Design",
+          "text": "Microservices",
+          "link": ""
+        },
+        {
+          "text": "Storage",
+          "link": ""
+        },
+        {
+          "text": "Azure",
+          "link": ""
+        },
+        {
+          "text": "Cloud Engineering",
+          "link": ""
+        },
+        {
+          "text": "Web Development",
           "link": ""
         },
         {
@@ -138,15 +100,17 @@
           "link": ""
         },
         {
-          "text": "Assembly Language",
+          "text": "Data Analysis",
           "link": ""
-        },
+        }
+      ]
+    },
+    {
+      "name": "Other Skills",
+      "note": "",
+      "list": [
         {
           "text": "Graphic Design",
-          "link": ""
-        },
-        {
-          "text": "UI/UX Design",
           "link": ""
         },
         {
@@ -159,6 +123,14 @@
         },
         {
           "text": "Adobe InDesign",
+          "link": ""
+        },
+        {
+          "text": "UI/UX Design",
+          "link": ""
+        },
+        {
+          "text": "Figma",
           "link": ""
         },
         {
