@@ -29,12 +29,12 @@
       "title": "StrengthClip",
       "image": "./StrengthClip.png",
       "image_height": "100",
-      "short_text": "StrengthClip is a site for users to try free at-home workouts and track their progress for different exercises.",
-      "long_text": "StrengthClip is a site for users to try free at-home workouts and track their progress for different exercises. Users are able to mark exercises that they have finished, so that they are able to constantly try new ones. Users are able to add and remove videos. Users can also like, comment on, and message other users to motivate each other.",
-      "site": "https://www.strengthclip.com/",
+      "short_text": "StrengthClip was a site for users to try free at-home workouts and track their progress for different exercises.",
+      "long_text": "StrengthClip was a site for users to try free at-home workouts and track their progress for different exercises. Users were able to mark exercises that they had finished, so they could constantly try new ones. Users could add and remove videos. They could also like, comment on, and message other users to motivate each other.",
+      "site": "",
       "paper": "",
       "presentation": "",
-      "code": "",
+      "code": "https://github.com/sulljohn/strengthclip",
       "languages": [
         {
           "name": "Ruby on Rails"
