@@ -13,6 +13,7 @@ import '@fontsource/roboto/700.css';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
+// Note: <React.StrictMode> will cause GA to be called twice in development
 root.render(
   <React.StrictMode>
     <HashRouter>
